@@ -1,0 +1,262 @@
+<?xml version="1.0"?>
+
+<vowel ref="1" name="o">
+<image>o.jpg</image>
+<title>Darkness</title>
+<pronunciation>/ou/ like the 'o' in 'Mo' (and Curly)
+</pronunciation>
+<w id="1">
+<d>
+I think, question, word
+</d>
+<m>
+For all
+</m>
+</w>
+
+<w id="2">
+<d>tire
+</d>
+<c>change: perform a function on previous word
+</c>
+</w>
+
+<w id="3">
+<d>sleep
+</d>
+<c>report value of operations
+</c>
+<m>
+implies (i.e. 'puts to rest')
+</m>
+</w>
+
+<w id="4">
+<d>eat
+</d>
+<c>enter next function within, what I just said
+</c>
+<m>
+an element
+</m>
+</w>
+
+<w id="5">
+<d>'self'
+</d>
+<n>from qo</n>
+<c>wrap parentheses around current operation from cursor
+</c>
+<m>
+set
+</m>
+</w>
+
+<w id="6">
+<d>finite memory, remember, vision
+</d>
+<m>
+finite list of symbols
+</m>
+</w>
+
+<w id="7">
+<d>born/diminished
+</d>
+<m>
+[phi, in A phi L]
+</m>
+</w>
+
+<w id="8">
+<d>(from an) impulse, set of circumstances
+</d>
+<n>how different from 7?
+</n>
+<m>
+L, language
+</m>
+</w>
+
+<w id="9">
+<d>forgetting/destroying 'impulse'
+</d>
+</w>
+
+<w id="10">
+<d>(or) creating/adding 'impulse'
+</d>
+</w>
+
+<w id="11">
+<d>Model
+</d>
+<m>
+Model
+</m>
+</w>
+
+<w id="12">
+<d>2 me's
+</d>
+<m>
+contradiction
+</m>
+</w>
+
+<w id="13">
+<d>restrictions
+</d>
+</w>
+
+<w id="14">
+<d>(on) repeating
+</d>
+</w>
+
+<w id="15">
+<d>elements
+</d>
+</w>
+
+<w id="16">
+<d>equal
+</d>
+<n>
+[?is]
+</n>
+</w>
+
+<w id="17">
+<d>use
+</d>
+</w>
+
+<w id="18">
+<d>darkness
+</d>
+<m>
+null set
+</m>
+</w>
+
+<w id="19">
+<d>doubt/question
+</d>
+</w>
+
+<w id="20">
+<d>there exists
+</d>
+<m>
+there exists
+</m>
+</w>
+
+<w id="21">
+<d>(a) way
+</d>
+</w>
+
+<w id="22">
+<d>(to) order
+</d>
+</w>
+
+<w id="23">
+<d>possibilities
+</d>
+</w>
+
+<w id="24">
+<d>(so that) undecidability
+</d>
+</w>
+
+<w id="25">
+<d>(is) impossible
+</d>
+</w>
+
+<w id="26">
+<d>choose
+</d>
+</w>
+
+<w id="27">
+<d>not (to)
+</d>
+</w>
+
+<history>
+
+<p>This story was originally entitled 'darkness'  On the very first notes
+page, I have, "story of the father's education to the son, blind son-->
+blind father, but father still leads/teaches/sees more than son [master,
+student, amateur], levels of going back and forth as one "ascends"  Obviously,
+this has little to do with the present work.  I removed the title 'darkness'
+because, of the very probable racist history and internalization of this word
+in our culture, first pointed out to me by the Isis Papers (need source),
+which, interestingly enough, seem a bit racist to me, themselves, however,
+the accurate points are still valid.  I will discuss this more in the general
+history of my language project.</p>
+
+<p>From the beginning and currently, this was and is to be the 'first'
+story, if there was such a thing.  If my language does materialize
+into book form, this story will be discussed before any other
+story</p>
+
+<p>Refer to the language's general structure, for more details</p>
+
+
+</history>
+
+<translation>
+<s refid="1">Who am I? I think. I question. </s><s refid="2">
+<br />
+I tire,</s><s refid="3">
+and thus sleep</s><s refid="4">
+and eat.</s><s refid="5">
+<br />
+From eating, i.e. something external nourishing me 
+<br />
+I recognize a self</s><s refid="6">
+<br />
+with finite memory.
+<br />
+My finite memory means that</s><s refid="7">
+<br />
+I was born </s><s refid="8">from some set of circumstances</s><s refid="9">
+<br />
+that has either destroyed my memory of an eternal existance</s>
+<s refid="10">
+or that has created me from nothing</s>
+<s refid="11">
+My model</s><s refid="12"> accepts for two possible "me" 's</s><s refid="13">
+<br />
+
+Restrictions on </s><s refid="14">repeating </s><s refid="15">elements</s><s refid="16"> is the same
+as </s><s refid="17">using </s><s refid="18">nothingness as something concrete.</s><s refid="19">
+<br />
+
+Doubt that</s><s refid="20"> there exists </s><s refid="21">a way </s><s refid="22">to order</s><s refid="23">
+the possibilities </s><s refid="24">so that undecidability </s><s refid="25">is impossible.</s><s refid="26">
+<br />
+
+Choose </s><s refid="27">not to.</s>
+</translation>
+<translation name="suicide">
+Always, doubting even myself,
+I always tire, and thus sleep and eat, sleep and eat.
+
+This nourishment is not me!
+Yet with limited memory, that death would come!
+I recognize a self with finite memory.
+My finite memory means that
+I was born from some set of circumstances
+either by creating me from nothing
+or by my forgetting--the destroying of my memory of
+a possibly eternal existance.
+My model accepts for two possible "me" 's
+</translation>
+</vowel>

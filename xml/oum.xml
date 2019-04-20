@@ -1,0 +1,280 @@
+<?xml version="1.0"?>
+
+<vowel ref="2" name="ou">
+<title>Volcano</title>
+<image>ou.jpg</image>
+<pronunciation>/&#248;/ like the 'ou' in 'about' said by a Canadian
+</pronunciation>
+<w id="1">
+<t>m</t>
+<d>town/society
+</d>
+</w>
+
+<w id="2">
+<t>'</t>
+<d>just inside (mountains)
+</d>
+</w>
+
+<w id="3">
+<t>n
+</t>
+<d>family
+</d>
+</w>
+
+<w id="4">
+<t>q
+</t>
+<d>children
+</d>
+</w>
+
+<w id="5">
+<t>z
+</t>
+<d>[plus one]
+</d>
+</w>
+
+<w id="6">
+<t>t
+</t>
+<d>(first) stays home
+</d>
+</w>
+
+<w id="7">
+<t>sh
+</t>
+<d>(second) leaves (mountains)
+</d>
+</w>
+
+<w id="8">
+<t>@
+</t>
+<d>(third) searches
+</d>
+</w>
+
+<w id="9">
+<t>f
+</t>
+<d>guide
+</d>
+</w>
+
+<w id="10">
+<t>w
+</t>
+<d>settled couple
+</d>
+</w>
+
+<w id="11">
+<t>k
+</t>
+<d>old-person
+</d>
+</w>
+
+<w id="12">
+<t>s
+</t>
+<d>followed/aided
+</d>
+</w>
+
+<w id="13">
+<t>th
+</t>
+<d>expansive view
+</d>
+</w>
+
+<w id="14">
+<t>j
+</t>
+<d>top,summit
+</d>
+</w>
+
+<w id="15">
+<t>g
+</t>
+<d>spots, catches sight of
+</d>
+</w>
+
+<w id="16">
+<t>v
+</t>
+<d>smoke (beacon)
+</d>
+</w>
+
+<w id="17">
+<t>y
+</t>
+<d>river (depositing, beating down force)
+</d>
+</w>
+
+<w id="18">
+<t>l
+</t>
+<d>volcano (destructive producing force)
+</d>
+</w>
+
+<w id="19">
+<t>b
+</t>
+<d>made [sculpted]
+</d>
+</w>
+
+<w id="20">
+<t>r
+</t>
+<d>(the) mountain range
+</d>
+</w>
+
+<w id="21">
+<t>d
+</t>
+<d>(the old person) jumps (into the river)
+</d>
+</w>
+
+<w id="22">
+<t>dh
+</t>
+<d>(third) travels (to volcano)
+</d>
+</w>
+
+<w id="23">
+<t>h
+</t>
+<d>explosion
+</d>
+</w>
+
+<w id="24">
+<t>p
+</t>
+<d>burning (third) [directly]
+</d>
+</w>
+
+<w id="25">
+<t>H
+</t>
+<d>they (town's people, etc: all except second and third)
+</d>
+</w>
+
+<w id="26">
+<t>kh</t>
+<d>buried [under]
+</d>
+</w>
+
+<w id="27">
+<t>ng</t>
+<d>ash
+</d>
+</w>
+
+<translation>
+  Once upon a time, 
+<s refid="1">   there was a village</s><s refid="2">
+   just inside a vast mountain range.  The villagers viewed themselves and were viewed by their neighbors as mountain people.  They almost never went deeper into the mountain, but a legend existed inside the village that a volcano was somewhere in the mountains, and that one day it would erupt and destroy the village.
+</s><s refid="3">
+  There was one family in the village </s><s refid="5">with three </s><s refid="4">children.
+  One day, the second eldest child declared that the volcano legend must be fiction, and decided to leave the village
+    out of the mountain range.</s><s refid="6">
+  The first child stayed home.</s><s refid="7">
+  The second child left, as they said they would.</s><s refid="8">
+  The third, decided to head into the mountain range
+   in search of the volcano.</s><s refid="9">
+  After setting off from home into the mountain,
+    the first person that the third met was a mountain guide.
+  "Where is the volcano?" the third asked the guide.
+  The guide did not know where the volcano was, but was
+    familiar with a number of paths across the mountain range.
+  The third traveled with the guide for some time, learning
+    the mountain paths, but eventually decided to go on alone
+    knowing that was the only way to find the volcano.
+</s><s refid="10">
+  Traveling further, the third encountered a settled couple living
+    a secluded life inside the mountain range.  They welcomed the child
+    into their home, and invited the third to stay.  Staying, the child
+    enjoyed a happy routine with the couple, but again decided to set
+    off alone on the quest to the volcano.
+</s><s refid="11">
+  After many more travels, the third encountered an old solitary traveller,
+    admitting to looking for the volcano, too.  The old stranger
+    believed that a certain peak was the volcano, and
+    pointed to it off in the distance.
+</s><s refid="12">
+  The third child followed the old traveller, and they helped each other towards
+    the distant peak.
+</s><s refid="13">
+  When they arrived, there was an expansive panoramic view 
+</s><s refid="14">at the summit, but
+    no volcano.  </s><s refid="15">However, in the distance they caught sight of </s><s refid="16">a small tendril of smoke that rose from 
+    a peak farther off.</s><s refid="17">
+  The old traveller squinted at the smoke and explained that the mountain
+    range was created by two forces--pointing to the river far below in the
+    ravine, the river created the valleys; </s><s refid="18">and sweeping a hand forward, the
+    volcano created the peaks.  </s><s refid="19">Together they sculpted </s><s refid="20">the mountain range.</s><s refid="21">
+  With that, the old traveller jumped down into the ravine falling far down
+    into the river.</s><s refid="22">
+  Alone again, the third child traveled to the volcano's peak.  </s><s refid="23">Reaching the top, the volcano exploded, </s><s refid="24">destroying the child in the
+    molten fire.
+</s><s refid="25">
+  The village's people</s><s refid="26"> were buried </s><s refid="27">under ash.</s>
+  
+</translation>
+
+<history>
+<p>This was the first story that was part of my language, possibly an
+inspiration to the project. (That, of course, does not give it any higher
+priority, but when making deep critiques of the language and its structure
+this may be notable.)  It is also possibly inspired by the story of Pompei and
+Pliny the Elder (Pliny the younger's uncle), who died during the volcano's
+eruption, and also was known to climb the volcano, interested in geology.
+Though I believed it at the time, I'm not sure this corresponds with the
+historical record--that Pliny the Elder was in/on top of the volcano studying
+it, while it erupted.
+</p>
+<p>'qou' originally meant "three/plus one (implication being two is a
+'natural' number of children)"
+</p>
+<p>'zou' originally meant "sons" and then meant "children."  'kou' also was
+originally gender specific--"old man."  Currently, all words are gender
+neutral.  It has been pointed out to me that most (possibly all) folk stories
+of a set of children 'going out to adventure' are male.  Does this suggest a
+bias in the story, just from this history--(ie is the 'idea' of adventuring in
+this way implicitly masculine?)  I have told the story, with all female roles,
+and it obviously still makes sense, though perhaps went against the grain of
+the audiences I have told it to. The gender neutrality is also possibly
+biased, I admit, if everyone reading the story, then assumes or imagines they
+are all male characters.  The total gender neutrality also may be simply
+unpopular, because we are so raised and accustomed to learning gender roles
+through folk tales.
+</p>
+<p>
+On the very first notes page, by volcano, I have, "town, prodigal son, old man,
+wrong high mountain, rivers valley, [cave] (points to "settled couple"), sky
+family, companion, road/travelled path, explosion, guide, settled couple,"
+</p>
+
+</history>
+
+</vowel>

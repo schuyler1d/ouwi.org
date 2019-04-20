@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">  
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head><title>Ouwi Navigation</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+<!--[if IE 6]>
+<link href="ie-win.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript">
+onload = function() { maintext.focus() }
+</script>
+<![endif]-->
+
+</head>
+<body>
+<div id="navigate">
+
+<ul>
+  <li>    <a href="index.html">Ouwi Home</a>
+  <ul>
+  <li id="navProject"><a href="project.html">Project</a>
+   <ul>
+     <li><a href="project.html#what">What is Ouwi?</a></li>
+     <li><a href="project.html#beginning">How I Began</a></li>
+     <li><a href="project.html#goal">The Current Goal</a></li>
+     <li><a href="project.html#project">The Project</a></li>
+     <li><a href="project.html#hope">The Hope</a></li>
+     
+   </ul>
+  </li>
+  <li id="navWriting"><a href="writing.html">Language</a>
+  <ul>
+    <li id="navIntro"><a href="writing.html#intro">Tutorial</a>
+    <ul>
+      <li><a href="writing.html#basic">Basic Elements</a></li>
+      <li><a href="writing.html#nouns">Nouns</a></li>
+      <li><a href="writing.html#adjectives">Adjectives</a></li>
+      <li><a href="writing.html#verbs">Verbs</a></li>
+      <li><a href="writing.html#must">Commands &#38; 'Must'</a></li>
+      <li><a href="writing.html#questions">Questions &#38; Unknowns</a></li>
+      <li><a href="writing.html#comparables">Comparables</a></li>
+    <li id="navIntermediate"><a href="intermediate.html">Intermediate Topics</a>
+    <ul>
+      <li><a href="intermediate.html#serial">Serial Chains</a></li>
+      <li><a href="intermediate.html#radiation_linking">Radiation</a></li>
+      <li><a href="intermediate.html#intersection">Intersecting Chords</a></li>
+    </ul>
+    </li>
+    </ul>
+    </li>
+    <!--li id="navAdvanced"><a href="advanced.html">Specialized Contexts</a>
+    <ul>
+      <li><a href="advanced.html#math">Math</a></li>
+      <li><a href="advanced.html#cs">Computer Science</a></li>
+      <li><a href="advanced.html#meta">Meta-texts</a></li>
+    </ul>
+    </li-->
+    <li><a href="glossary.html">Glossary</a></li>
+    <li><a href="writing.html#sentences">Sample Sentences</a></li>
+    <li><a href="writing.html#texts">Sample Texts</a></li>
+    <li id="navGrammar"><a href="grammar.html">Speaking Ouwi</a>
+      <ul>
+	<li><a href="grammar.html#one">General Framework</a></li>
+	<li><a href="grammar.html#consonants">Consonant Connections</a></li>
+	<!--li><a href="grammar.html#keyboard">Keyboard Layout</a></li-->
+      </ul>
+    </li>
+    <li id="navApology"><a href="apology.html">Designing Ouwi</a>
+       <ul>
+	 <li><a href="apology.html#motivations">Motivations</a></li>
+	 <li><a href="apology.html#issues">Challenges</a></li>
+	 <li><a href="apology.html#options">Choices</a></li>
+	 <li><a href="apology.html#principles">Principles</a></li>
+	 <!--li><a href="apology.html#comp">Comparisons</a></li-->
+	 <li><a href="apology.html#history">Perspective</a></li>
+       </ul>
+    </li>
+  </ul>
+  </li>
+  <li><a href="#stories" id="storieslink" >Stories <span id="storiesarrow"></span></a>
+
+  </li>
+
+  </ul>
+  </li>
+</ul>
+<div id="stories" class="navstories">
+  <table id="storiesblock" border="0" cellspacing="10" cellpadding="0">
+    <tr>
+      <td align="center"><a href="uum.html">The Other<br /><img src="images/icon-uu.jpg"  alt="other" /></a></td>
+      <td></td>	<td></td>	<td></td>
+    </tr>
+    <tr>
+      <td align="center"><a href="aem.html" >Love<br /><img src="images/icon-ae.jpg" alt="love" /></a></td>
+      <td align="center" ><a href="em.html">Sin<br /><img src="images/icon-e.jpg"  alt="sin" /></a></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td align="center"><a href="eem.html">Color<br /><img src="images/icon-ee.jpg"  alt="color" /></a></td>
+      <td align="center"><a href="aum.html">Law<br /><img src="images/icon-au.jpg"  alt="law" /></a></td>
+      <td align="center"><a href="eym.html">Light<br /><img src="images/icon-ei.jpg"  alt="light" /></a></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top">
+      Unknown<br /><img src="images/icon-u.jpg"  alt="unknown" /></td>
+      <td align="center">
+	
+      <a href="im.html">Waters<br /><img src="images/icon-i.jpg"  alt="waters" /></a></td>
+      <td align="center">
+	<a href="oum.html">
+      Volcano<br /><img src="images/icon-ou.jpg"  alt="volcano" /></a></td>
+      <td align="center">
+	<a href="om.html">
+      Darkness<br /><img src="images/icon-o.jpg"  alt="darkness" /></a></td>
+      
+    </tr>
+  </table>
+</div>
+
+</div>
+</body>
+</html>

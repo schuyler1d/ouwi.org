@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE TOUCHGRAPH_LB [
+
+<!ELEMENT TOUCHGRAPH_LB (NODESET, EDGESET, PARAMETERS)>
+<!ELEMENT NODESET (NODE+)>
+<!ELEMENT EDGESET (EDGE*)>
+<!ELEMENT PARAMETERS (PARAM*)>
+
+<!ELEMENT NODE (NODE_LOCATION?, NODE_LABEL?, NODE_URL?, NODE_HINT?)>
+
+<!ELEMENT NODE_LABEL EMPTY>
+<!ELEMENT NODE_URL EMPTY>
+<!ELEMENT NODE_HINT EMPTY>
+
+<!ATTLIST TOUCHGRAPH_LB
+  version CDATA #REQUIRED >
+
+<!ATTLIST NODE
+  nodeID CDATA #REQUIRED >
+
+<!ATTLIST NODE_LOCATION
+  visible CDATA #IMPLIED
+  x CDATA #IMPLIED
+  y CDATA #IMPLIED >
+
+<!ATTLIST NODE_LABEL
+  label CDATA #REQUIRED 
+  shape CDATA #IMPLIED
+  backColor CDATA #IMPLIED 
+  textColor CDATA #IMPLIED
+  fontSize CDATA #IMPLIED >
+
+<!ATTLIST NODE_URL 
+  url CDATA #REQUIRED 
+  urlIsLocal CDATA #IMPLIED 
+  urlIsXML CDATA #IMPLIED >
+
+<!ATTLIST NODE_HINT 
+  hint CDATA #REQUIRED 
+  height CDATA #IMPLIED 
+  width CDATA #IMPLIED 
+  isHTML CDATA #IMPLIED >  
+
+<!ELEMENT EDGE EMPTY>
+
+<!ATTLIST EDGE
+  fromID CDATA #REQUIRED
+  toID CDATA #REQUIRED 
+  length CDATA #IMPLIED 
+  color CDATA #IMPLIED 
+  type CDATA #IMPLIED
+  visible CDATA #IMPLIED >
+
+<!ELEMENT PARAM EMPTY>
+
+<!ATTLIST PARAM
+  name CDATA #REQUIRED
+  value CDATA #REQUIRED >
+]>
+<TOUCHGRAPH_LB version="1.20">
+    <NODESET>
+        <NODE nodeID="AutoID 1120014304738">
+            <NODE_LOCATION x="-135" y="-163" visible="true"/>
+            <NODE_LABEL label="1" shape="1" backColor="A04000" textColor="FFFFFF" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="" width="300" height="-1" isHTML="false"/>
+        </NODE>
+        <NODE nodeID="AutoID 1120014365535">
+            <NODE_LOCATION x="47" y="-202" visible="true"/>
+            <NODE_LABEL label="name/ing" shape="3" backColor="0000E0" textColor="FFFFFF" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="also &apos;describing&apos;" width="300" height="-1" isHTML="false"/>
+        </NODE>
+        <NODE nodeID="AutoID 1120014450668">
+            <NODE_LOCATION x="-183" y="37" visible="true"/>
+            <NODE_LABEL label="desire" shape="3" backColor="0000E0" textColor="FFFFFF" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="" width="300" height="-1" isHTML="false"/>
+        </NODE>
+        <NODE nodeID="AutoID 1120014462465">
+            <NODE_LOCATION x="-203" y="-294" visible="true"/>
+            <NODE_LABEL label="mystery" shape="3" backColor="0000E0" textColor="FFFFFF" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="" width="300" height="-1" isHTML="false"/>
+        </NODE>
+        <NODE nodeID="AutoID 1120014494511">
+            <NODE_LOCATION x="184" y="24" visible="true"/>
+            <NODE_LABEL label="unconnected" shape="2" backColor="FF4000" textColor="000000" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="" width="300" height="-1" isHTML="false"/>
+        </NODE>
+        <NODE nodeID="AutoID 1120014544703">
+            <NODE_LOCATION x="-121" y="461" visible="true"/>
+            <NODE_LABEL label="2" shape="1" backColor="A04000" textColor="FFFFFF" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="" width="300" height="-1" isHTML="false"/>
+        </NODE>
+        <NODE nodeID="AutoID 1120014556961">
+            <NODE_LOCATION x="-267" y="203" visible="true"/>
+            <NODE_LABEL label="3" shape="1" backColor="A04000" textColor="FFFFFF" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="" width="300" height="-1" isHTML="false"/>
+        </NODE>
+        <NODE nodeID="AutoID 1120014562989">
+            <NODE_LOCATION x="-341" y="-138" visible="true"/>
+            <NODE_LABEL label="4" shape="1" backColor="A04000" textColor="FFFFFF" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="" width="300" height="-1" isHTML="false"/>
+        </NODE>
+        <NODE nodeID="AutoID 1120014582838">
+            <NODE_LOCATION x="803" y="196" visible="true"/>
+            <NODE_LABEL label="5" shape="1" backColor="A04000" textColor="FFFFFF" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="" width="300" height="-1" isHTML="false"/>
+        </NODE>
+        <NODE nodeID="AutoID 1120014588947">
+            <NODE_LOCATION x="593" y="-424" visible="true"/>
+            <NODE_LABEL label="6" shape="1" backColor="A04000" textColor="FFFFFF" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="" width="300" height="-1" isHTML="false"/>
+        </NODE>
+        <NODE nodeID="AutoID 1120014594945">
+            <NODE_LOCATION x="598" y="390" visible="true"/>
+            <NODE_LABEL label="7" shape="1" backColor="A04000" textColor="FFFFFF" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="" width="300" height="-1" isHTML="false"/>
+        </NODE>
+        <NODE nodeID="AutoID 1120014600423">
+            <NODE_LOCATION x="389" y="56" visible="true"/>
+            <NODE_LABEL label="8" shape="1" backColor="A04000" textColor="FFFFFF" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="" width="300" height="-1" isHTML="false"/>
+        </NODE>
+        <NODE nodeID="AutoID 1120014605821">
+            <NODE_LOCATION x="248" y="-196" visible="true"/>
+            <NODE_LABEL label="9" shape="1" backColor="A04000" textColor="FFFFFF" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="" width="300" height="-1" isHTML="false"/>
+        </NODE>
+        <NODE nodeID="AutoID 1120014611169">
+            <NODE_LOCATION x="86" y="253" visible="true"/>
+            <NODE_LABEL label="10" shape="1" backColor="A04000" textColor="FFFFFF" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="" width="300" height="-1" isHTML="false"/>
+        </NODE>
+        <NODE nodeID="AutoID 1120014634803">
+            <NODE_LOCATION x="-212" y="553" visible="true"/>
+            <NODE_LABEL label="accomplishment" shape="3" backColor="0000E0" textColor="FFFFFF" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="" width="300" height="-1" isHTML="false"/>
+        </NODE>
+        <NODE nodeID="AutoID 1120014655673">
+            <NODE_LOCATION x="-243" y="359" visible="true"/>
+            <NODE_LABEL label="non-action" shape="3" backColor="0000E0" textColor="FFFFFF" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="" width="300" height="-1" isHTML="false"/>
+        </NODE>
+        <NODE nodeID="AutoID 1120014774183">
+            <NODE_LOCATION x="-193" y="-126" visible="true"/>
+            <NODE_LABEL label="Tao(desc)" shape="3" backColor="0000E0" textColor="FFFFFF" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="" width="300" height="-1" isHTML="false"/>
+        </NODE>
+        <NODE nodeID="AutoID 1120014895778">
+            <NODE_LOCATION x="736" y="322" visible="true"/>
+            <NODE_LABEL label="H&amp;E(desc)" shape="3" backColor="0000E0" textColor="FFFFFF" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="" width="300" height="-1" isHTML="false"/>
+        </NODE>
+        <NODE nodeID="AutoID 1120014952189">
+            <NODE_LOCATION x="778" y="54" visible="true"/>
+            <NODE_LABEL label="center" shape="3" backColor="0000E0" textColor="FFFFFF" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="" width="300" height="-1" isHTML="false"/>
+        </NODE>
+        <NODE nodeID="AutoID 1120015511764">
+            <NODE_LOCATION x="657" y="-509" visible="true"/>
+            <NODE_LABEL label="energy" shape="3" backColor="0000E0" textColor="FFFFFF" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="" width="300" height="-1" isHTML="false"/>
+        </NODE>
+        <NODE nodeID="AutoID 1120015547765">
+            <NODE_LOCATION x="416" y="385" visible="true"/>
+            <NODE_LABEL label="self" shape="3" backColor="0000E0" textColor="FFFFFF" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="" width="300" height="-1" isHTML="false"/>
+        </NODE>
+        <NODE nodeID="AutoID 1120015685944">
+            <NODE_LOCATION x="531" y="79" visible="true"/>
+            <NODE_LABEL label="contend" shape="3" backColor="0000E0" textColor="FFFFFF" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="" width="300" height="-1" isHTML="false"/>
+        </NODE>
+        <NODE nodeID="AutoID 1120015714776">
+            <NODE_LOCATION x="277" y="-352" visible="true"/>
+            <NODE_LABEL label="Heaven&apos;s Tao" shape="3" backColor="0000E0" textColor="FFFFFF" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="" width="300" height="-1" isHTML="false"/>
+        </NODE>
+        <NODE nodeID="AutoID 1120015931938">
+            <NODE_LOCATION x="-3" y="352" visible="true"/>
+            <NODE_LABEL label="dark Te" shape="3" backColor="0000E0" textColor="FFFFFF" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="" width="300" height="-1" isHTML="false"/>
+        </NODE>
+        <NODE nodeID="AutoID 1120016081022">
+            <NODE_LOCATION x="662" y="-60" visible="true"/>
+            <NODE_LABEL label="11" shape="1" backColor="A04000" textColor="FFFFFF" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="" width="300" height="-1" isHTML="false"/>
+        </NODE>
+        <NODE nodeID="AutoID 1120016120309">
+            <NODE_LOCATION x="-23" y="39" visible="true"/>
+            <NODE_LABEL label="12" shape="1" backColor="A04000" textColor="FFFFFF" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="" width="300" height="-1" isHTML="false"/>
+        </NODE>
+        <NODE nodeID="AutoID 1120016126107">
+            <NODE_LOCATION x="373" y="456" visible="true"/>
+            <NODE_LABEL label="13" shape="1" backColor="A04000" textColor="FFFFFF" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="" width="300" height="-1" isHTML="false"/>
+        </NODE>
+        <NODE nodeID="AutoID 1120016131435">
+            <NODE_LOCATION x="-310" y="-216" visible="true"/>
+            <NODE_LABEL label="14" shape="1" backColor="A04000" textColor="FFFFFF" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="" width="300" height="-1" isHTML="false"/>
+        </NODE>
+        <NODE nodeID="AutoID 1120016137604">
+            <NODE_LOCATION x="258" y="-132" visible="true"/>
+            <NODE_LABEL label="15" shape="1" backColor="A04000" textColor="FFFFFF" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="" width="300" height="-1" isHTML="false"/>
+        </NODE>
+        <NODE nodeID="AutoID 1120016144103">
+            <NODE_LOCATION x="378" y="-146" visible="true"/>
+            <NODE_LABEL label="16" shape="1" backColor="A04000" textColor="FFFFFF" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="" width="300" height="-1" isHTML="false"/>
+        </NODE>
+        <NODE nodeID="AutoID 1120016150953">
+            <NODE_LOCATION x="245" y="206" visible="true"/>
+            <NODE_LABEL label="17" shape="1" backColor="A04000" textColor="FFFFFF" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="" width="300" height="-1" isHTML="false"/>
+        </NODE>
+        <NODE nodeID="AutoID 1120016156250">
+            <NODE_LOCATION x="61" y="593" visible="true"/>
+            <NODE_LABEL label="18" shape="1" backColor="A04000" textColor="FFFFFF" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="" width="300" height="-1" isHTML="false"/>
+        </NODE>
+        <NODE nodeID="AutoID 1120016162059">
+            <NODE_LOCATION x="257" y="463" visible="true"/>
+            <NODE_LABEL label="19" shape="1" backColor="A04000" textColor="FFFFFF" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="" width="300" height="-1" isHTML="false"/>
+        </NODE>
+        <NODE nodeID="AutoID 1120016167927">
+            <NODE_LOCATION x="172" y="266" visible="true"/>
+            <NODE_LABEL label="20" shape="1" backColor="A04000" textColor="FFFFFF" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="" width="300" height="-1" isHTML="false"/>
+        </NODE>
+        <NODE nodeID="AutoID 1120016221705">
+            <NODE_LOCATION x="475" y="-127" visible="true"/>
+            <NODE_LABEL label="emptiness" shape="3" backColor="0000E0" textColor="FFFFFF" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="" width="300" height="-1" isHTML="false"/>
+        </NODE>
+        <NODE nodeID="AutoID 1120016386231">
+            <NODE_LOCATION x="280" y="349" visible="true"/>
+            <NODE_LABEL label="fear" shape="3" backColor="0000E0" textColor="FFFFFF" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="" width="300" height="-1" isHTML="false"/>
+        </NODE>
+        <NODE nodeID="AutoID 1120017320254">
+            <NODE_LOCATION x="501" y="-304" visible="true"/>
+            <NODE_LABEL label="root" shape="3" backColor="0000E0" textColor="FFFFFF" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="" width="300" height="-1" isHTML="false"/>
+        </NODE>
+        <NODE nodeID="AutoID 1120017820824">
+            <NODE_LOCATION x="50" y="712" visible="true"/>
+            <NODE_LABEL label="Great Tao" shape="3" backColor="0000E0" textColor="FFFFFF" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="" width="300" height="-1" isHTML="false"/>
+        </NODE>
+        <NODE nodeID="AutoID 1120017913277">
+            <NODE_LOCATION x="81" y="427" visible="true"/>
+            <NODE_LABEL label="knowledge" shape="3" backColor="0000E0" textColor="FFFFFF" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="" width="300" height="-1" isHTML="false"/>
+        </NODE>
+        <NODE nodeID="AutoID 1120018628115">
+            <NODE_LOCATION x="-60" y="-27" visible="true"/>
+            <NODE_LABEL label="21" shape="1" backColor="A04000" textColor="FFFFFF" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="" width="300" height="-1" isHTML="false"/>
+        </NODE>
+        <NODE nodeID="AutoID 1120018637018">
+            <NODE_LOCATION x="310" y="7" visible="true"/>
+            <NODE_LABEL label="22" shape="1" backColor="A04000" textColor="FFFFFF" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="" width="300" height="-1" isHTML="false"/>
+        </NODE>
+        <NODE nodeID="AutoID 1120018642816">
+            <NODE_LOCATION x="265" y="-49" visible="true"/>
+            <NODE_LABEL label="23" shape="1" backColor="A04000" textColor="FFFFFF" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="" width="300" height="-1" isHTML="false"/>
+        </NODE>
+        <NODE nodeID="AutoID 1120018647563">
+            <NODE_LOCATION x="331" y="214" visible="true"/>
+            <NODE_LABEL label="24" shape="1" backColor="A04000" textColor="FFFFFF" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="" width="300" height="-1" isHTML="false"/>
+        </NODE>
+        <NODE nodeID="AutoID 1120018653521">
+            <NODE_LOCATION x="-13" y="-73" visible="true"/>
+            <NODE_LABEL label="25" shape="1" backColor="A04000" textColor="FFFFFF" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="" width="300" height="-1" isHTML="false"/>
+        </NODE>
+        <NODE nodeID="AutoID 1120018659380">
+            <NODE_LOCATION x="175" y="-153" visible="true"/>
+            <NODE_LABEL label="26" shape="1" backColor="A04000" textColor="FFFFFF" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="" width="300" height="-1" isHTML="false"/>
+        </NODE>
+        <NODE nodeID="AutoID 1120018669164">
+            <NODE_LOCATION x="88" y="102" visible="true"/>
+            <NODE_LABEL label="27" shape="1" backColor="A04000" textColor="FFFFFF" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="" width="300" height="-1" isHTML="false"/>
+        </NODE>
+        <NODE nodeID="AutoID 1120018674351">
+            <NODE_LOCATION x="284" y="86" visible="true"/>
+            <NODE_LABEL label="28" shape="1" backColor="A04000" textColor="FFFFFF" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="" width="300" height="-1" isHTML="false"/>
+        </NODE>
+        <NODE nodeID="AutoID 1120018679208">
+            <NODE_LOCATION x="102" y="-15" visible="true"/>
+            <NODE_LABEL label="29" shape="1" backColor="A04000" textColor="FFFFFF" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="" width="300" height="-1" isHTML="false"/>
+        </NODE>
+        <NODE nodeID="AutoID 1120018685057">
+            <NODE_LOCATION x="182" y="124" visible="true"/>
+            <NODE_LABEL label="30" shape="1" backColor="A04000" textColor="FFFFFF" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="" width="300" height="-1" isHTML="false"/>
+        </NODE>
+        <NODE nodeID="AutoID 1120018786793">
+            <NODE_LOCATION x="-216" y="-28" visible="true"/>
+            <NODE_LABEL label="Great Te" shape="3" backColor="0000E0" textColor="FFFFFF" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="" width="300" height="-1" isHTML="false"/>
+        </NODE>
+        <NODE nodeID="AutoID 1120099293256">
+            <NODE_LOCATION x="134" y="-265" visible="true"/>
+            <NODE_LABEL label="passion" shape="3" backColor="0000E0" textColor="FFFFFF" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="tsao=restlessness/movement/hastiness" width="300" height="-1" isHTML="false"/>
+        </NODE>
+        <NODE nodeID="AutoID 1120099350609">
+            <NODE_LOCATION x="127" y="-140" visible="true"/>
+            <NODE_LABEL label="45" shape="1" backColor="A04000" textColor="FFFFFF" fontSize="12"/>
+            <NODE_URL url="" urlIsLocal="false" urlIsXML="false"/>
+            <NODE_HINT hint="" width="300" height="-1" isHTML="false"/>
+        </NODE>
+    </NODESET>
+    <EDGESET>
+        <EDGE fromID="AutoID 1120014304738" toID="AutoID 1120014365535" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120014304738" toID="AutoID 1120014450668" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120014304738" toID="AutoID 1120014462465" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120014494511" toID="AutoID 1120014600423" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120014494511" toID="AutoID 1120014605821" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120014494511" toID="AutoID 1120014611169" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120014544703" toID="AutoID 1120014634803" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120014544703" toID="AutoID 1120014655673" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120014556961" toID="AutoID 1120014655673" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120014556961" toID="AutoID 1120014450668" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120014562989" toID="AutoID 1120014774183" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120014304738" toID="AutoID 1120014774183" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120014582838" toID="AutoID 1120014895778" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120014582838" toID="AutoID 1120014952189" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120014588947" toID="AutoID 1120015511764" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120014594945" toID="AutoID 1120014895778" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120014594945" toID="AutoID 1120015547765" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120014600423" toID="AutoID 1120015685944" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120014605821" toID="AutoID 1120015714776" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120014611169" toID="AutoID 1120015931938" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120014494511" toID="AutoID 1120016120309" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120014494511" toID="AutoID 1120016137604" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120014494511" toID="AutoID 1120016144103" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120014494511" toID="AutoID 1120016150953" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120014494511" toID="AutoID 1120016167927" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120016081022" toID="AutoID 1120014952189" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120016081022" toID="AutoID 1120016221705" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120016120309" toID="AutoID 1120014450668" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120016126107" toID="AutoID 1120015547765" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120016126107" toID="AutoID 1120016386231" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120016131435" toID="AutoID 1120014774183" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120016137604" toID="AutoID 1120016221705" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120016137604" toID="AutoID 1120014365535" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120016144103" toID="AutoID 1120016221705" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120016144103" toID="AutoID 1120017320254" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120014588947" toID="AutoID 1120017320254" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120016150953" toID="AutoID 1120016386231" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120016156250" toID="AutoID 1120017820824" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120016162059" toID="AutoID 1120015547765" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120016162059" toID="AutoID 1120017913277" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120016156250" toID="AutoID 1120017913277" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120014611169" toID="AutoID 1120017913277" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120014544703" toID="AutoID 1120017913277" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120016167927" toID="AutoID 1120016386231" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120016167927" toID="AutoID 1120017913277" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120014494511" toID="AutoID 1120018628115" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120014494511" toID="AutoID 1120018637018" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120014494511" toID="AutoID 1120018642816" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120014494511" toID="AutoID 1120018647563" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120014494511" toID="AutoID 1120018653521" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120014494511" toID="AutoID 1120018659380" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120014494511" toID="AutoID 1120018669164" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120014494511" toID="AutoID 1120018674351" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120014494511" toID="AutoID 1120018679208" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120014494511" toID="AutoID 1120018685057" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120018628115" toID="AutoID 1120014774183" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120018628115" toID="AutoID 1120016120309" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120018628115" toID="AutoID 1120018786793" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120018647563" toID="AutoID 1120015547765" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120018653521" toID="AutoID 1120014774183" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120018659380" toID="AutoID 1120099293256" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120014494511" toID="AutoID 1120099350609" type="1" length="40" visible="true" color="0000B0"/>
+        <EDGE fromID="AutoID 1120099350609" toID="AutoID 1120099293256" type="1" length="40" visible="true" color="0000B0"/>
+    </EDGESET>
+    <PARAMETERS>
+        <PARAM name="offsetX" value="232"/>
+        <PARAM name="rotateSB" value="0"/>
+        <PARAM name="zoomSB" value="-15"/>
+        <PARAM name="offsetY" value="75"/>
+    </PARAMETERS>
+</TOUCHGRAPH_LB>

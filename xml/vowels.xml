@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<vowels>
+<v id="1" ipa="ou" file="o">
+o
+</v>
+<v id="2" ipa="&#248;" file="ou">
+ou
+</v>
+<v id="3" ipa="&#x251;" file="i">
+a
+</v>
+<v id="4" ipa="&#x28C;">
+uh
+</v>
+<v id="5" ipa="&#618;" file="ey">
+i
+</v>
+<v id="6" ipa="u:" file="au">
+uu
+</v>
+<v id="7" ipa="e" file="ee">
+e
+</v>
+<v id="8" ipa="&#616;" file="e">
+&#1099;
+</v>
+<v id="9" ipa="&#603;" file="ae">
+aa
+</v>
+<v id="10" ipa="i" file="uu">
+ee
+</v>
+</vowels>

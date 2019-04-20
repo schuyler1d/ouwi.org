@@ -1,0 +1,14 @@
+{'nodes':{
+    '1':{x:453,y:464,content:{label:'1'}},
+    '2':{x:353,y:314,content:{label:'2'}},
+    '3':{x:111,y:112,content:{label:'3'}},
+    '4':{x:130,y:141,content:{label:'4'}}
+    },
+    'edges':{
+    'a':{p:'1',q:'2'},
+    'b':{p:'1',q:'3'},
+    'c':{p:'3',q:'4'},
+    'd':{p:'1',q:'4'}
+    },
+    'chain_nodes':['4']
+}

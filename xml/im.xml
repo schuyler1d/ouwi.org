@@ -1,0 +1,301 @@
+<?xml version="1.0"?>
+
+<vowel ref="3" name="i">
+<title>Waters</title>
+<image>i.jpg</image>
+<pronunciation>/&#618;/ like the 'i' in 'win'
+</pronunciation>
+<w id="1">
+<t>m
+</t>
+<d>he/she/it [past tense, d.o.]
+</d>
+</w>
+
+<w id="2">
+<t>'
+</t>
+<d>[saw] (and) [clouds]
+</d>
+</w>
+
+<w id="3">
+<t>n
+</t>
+<d>[a crowd][gathered about][not particular]
+</d>
+</w>
+
+<w id="4">
+<t>q
+</t>
+<d>a [particular][captain]
+</d>
+</w>
+
+<w id="5">
+<t>z
+</t>
+<d>listening
+</d>
+</w>
+
+<w id="6">
+<t>t
+</t>
+<d>(the captain did not hear) thunder
+</d>
+</w>
+
+<w id="7">
+<t>sh
+</t>
+<d>(I did hear) birds (on the) wind
+</d>
+</w>
+
+<w id="8">
+<t>@
+</t>
+<d>encountering/experiencing
+</d>
+</w>
+
+<w id="9">
+<t>f
+</t>
+<d>unstable rolling (which throws the captain off the ship)
+</d>
+</w>
+
+<w id="10">
+<t>w
+</t>
+<d>(I encountered) a cave/wall/enclosed space
+</d>
+</w>
+
+<w id="11">
+<t>k
+</t>
+<d>[?(having)] responded w/o thinking, reflexed [?pluperfect]
+</d>
+</w>
+
+<w id="12">
+<t>s
+</t>
+<d>[toward] a flailing ship
+</d>
+</w>
+
+<w id="13">
+<t>th
+</t>
+<d>[away] from the eye of the storm
+</d>
+</w>
+
+<w id="14">
+<t>j
+</t>
+<d>feeling (grabbing)
+</d>
+</w>
+
+<w id="15">
+<t>g
+</t>
+<d>(the captain did not reach/feel) the rock
+</d>
+</w>
+
+<w id="16">
+<t>v
+</t>
+<d>(while I felt) the deck edge
+</d>
+<n>(too sim. to 10?)
+</n>
+</w>
+
+<w id="17">
+<t>y
+</t>
+<d>tasting
+</d>
+</w>
+
+<w id="18">
+<t>l
+</t>
+<d>(the captain did not taste) [shut his mouth] salt
+</d>
+</w>
+
+<w id="19">
+<t>b
+</t>
+<d>(while I [now?] taste) vain hope/liquor bitter,sour,?rotten meat
+</d>
+</w>
+
+<w id="20">
+<t>r
+</t>
+<d>feeling [internal/~emotions]
+</d>
+</w>
+
+<w id="21">
+<t>d
+</t>
+<d>panicked/overwhelmed/"flooded"
+</d>
+</w>
+
+<w id="22">
+<t>dh
+</t>
+<d>sick to stomach
+</d>
+</w>
+
+<w id="23">
+<t>h
+</t>
+<d>smelling (the captain)
+</d>
+</w>
+
+<w id="24">
+<t>p
+</t>
+<d>(the captain did not smell the) fish (could not) swim
+</d>
+</w>
+
+<w id="25">
+<t>H
+</t>
+<d>[while I smelt morning/dawn, tomorrow]
+</d>
+</w>
+
+<w id="26">
+<t>kh
+</t>
+<d>(and thus) direction
+</d>
+<n>(from 25)
+</n>
+</w>
+
+<w id="27">
+<t>ng
+</t>
+<d>(and a) rainbow/beautiful day
+</d>
+</w>
+
+<translation>
+<s refid="1">Back when,</s>
+<s refid="2">the clouds gathered over the sea.
+<br />See
+</s>
+<ul>
+<s refid="3">the crew gather about</s><s refid="4"> the captain.</s>
+</ul>
+<s refid="5">Listen</s>
+<ul>
+<s refid="6">Captain, don't you hear the thunder?</s>
+<s refid="7">I even hear the birds on the wind.</s>
+</ul>
+
+<s refid="8">Balance</s>
+<ul>
+  <s refid="9">Captain, so you don't get tossed off the ship</s>
+  <s refid="10">as I managed to fall into the hold.</s>
+</ul>
+<s refid="11">Respond</s>
+<ul>
+  <s refid="12">Captain, stay afloat near the ship,</s>
+  <s refid="13">as we come out of the eye of the storm for you.</s>
+</ul>
+<s refid="14">Touch</s>
+<ul>
+  <s refid="15">the rock if you can reach it</s>
+  <s refid="16">as I latch to the crow's nest keeping you at point.</s>
+</ul>
+<s refid="17">Taste</s>
+<ul>
+  <s refid="18">the salty waters, Captain, close your mouth.</s>
+  <s refid="19">The memory of that night makes me taste tears.</s>
+</ul>
+<s refid="20">Feel</s>
+<ul>
+  <s refid="21">the panic in the water,</s>
+  <s refid="22">as I'm sick from our loss.</s>
+</ul>
+<s refid="23">Smell</s>
+<ul>
+  <s refid="24">the fishy waves, and swim</s>
+  <s refid="25">and we smell the new vacant day.</s>
+</ul>
+<s refid="26">Alone, the dawn directs us forward;</s>
+<s refid="27">alone but with a rainbow.</s>
+
+</translation>
+
+<history>
+<p>On the very first notes page, for water, I have, "time,
+<deleted>music</deleted>, storm, thunder, lightning, navy (could only defend),
+(maybe) rainbow, drowning, fish, birds, waves--moon, compass/magnetism,
+clouds--parents to ocean, rain [homage (undesired or not)]"
+</p>
+<p>Waters was inspired partly by the first two verses of Genesis: "In the
+beginning God created the heaven and the earth.  And the earth was without
+form, and void; and darkness was upon the face of the deep.  And the Spirit
+of God moved upon the face of the waters."  Thus, God didn't create water, it
+was there 'in the beginning.'  As a generalization I've noticed in the Bible
+and most other places, water representing the 'other' of nature or that which
+exerts the force of an unsympathetic nature.</p>
+
+<p>a completed text (but, to me, an unsatisfactory one) goes:</p>
+<br />1 s/he (I past tense or direct object)
+<br />2 [saw] (and) clouds [(or) children of the water]
+<br />3 searched out, gathered about [not particular (any captain would do)]
+<br />4 (a) captain [particular]
+<br />5 listening
+<br />6 (the captain did not hear) thunder [[environment: lightning]]
+<br />7 (I did hear) birds (on the)[,] wind
+<br />8 moving [towards]
+<br />9 (not the) eye of the storm [i.e. away from it; out of it, actually]
+<br />10 (as another) ship, flailing (was there)
+<br />11 [insisting], [assuring], [helping/wanting to help it end up so that]
+[[environment: righteousness]]
+<br />12 (the captain that) [we] (not) all perish [not one should perish]
+[[environment: uncompromising [laws]]]
+<br />13 (while I) [became/am] alone [implying the captain left, fell overboard]
+[[environment: risk]]
+<br />14 fealing (grabbing)
+<br />15 (the captain did not reach/feal the) rock
+<br />16 (while I lay/felt the) deck [edge]
+<br />17 tasting [[environment: witnessing first hand (instantaneously)]]
+<br />18 (the captain did not taste) [shut his mouth] salt (from the ocean)
+[[environment: tears]]
+<br />19 (while I now taste(d)) vain/lost hope, liquor, (piss:3/4/99)
+<br />20 (I) standing [frozen] (from a distance, but at hand) (bore witness:7/26/99)
+<br />21 (the captain) [screamed] [yelled] [roared]
+<br />22 (as the) sea monster/leviathon [,coming]
+<br />23 smelling (her/him) (trying to get a coherent location)
+<br />24 (the captain did not smell the)fish, (could not) swim [away]
+<br />25 (while I smell the)morning/dawn/tomorrow or clouds revealed the stars
+<br />26 (and thus) direction ([from the "heavens" in 25])
+[[environment:magnetism]]
+<br />27 (and a)rainbow
+
+</history>
+
+
+</vowel>

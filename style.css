@@ -1,0 +1,274 @@
+@media print {
+	#navigate {
+		display: none;
+	}
+}
+
+@media screen {
+body {	font-family: sans-serif;
+	margin: 0;
+	padding: 0 0 0 0;
+	}
+
+div#maintext {
+	margin-left: 16em;
+	padding-right: 5em;
+	padding-top: 1em;
+}
+
+#rollup {
+        background-image: url(images/icon-ey.jpg);
+        background-repeat: no-repeat;
+	position: fixed;
+	left:29px;
+	top:11px;	
+	width:30px;
+	height:30px;
+}
+
+#navigate {
+	
+	position: fixed;
+	width: 15em;
+	top:0px;
+	left:0px;
+	padding-left: 0;
+	padding-top: 0.5em;
+	background-color: white;
+	z-index:1;
+}
+
+#navigate  .nav {
+	/*font-family: monospace;*/
+	line-height: 1.3em;
+	text-decoration:none;
+}
+
+.monolink {
+	font-family: monospace;
+	text-decoration:none;
+}
+
+#navigate > h1  {
+	font-size: 1.2em;
+	text-align: left;
+	position:absolute;
+	top:-9px;
+	left:8em;
+}
+
+#storycontrols {
+	position:absolute;
+	top:2.5em;
+	left:12.4em;
+}
+
+#storynextline {
+	display:none;
+}
+
+#navigate > h1 > img  {
+	padding-right:8px;
+}
+
+#navigate > ul > li > ul > li > ul {
+	display:none;
+}
+
+#navigate > ul > li > ul > li > ul > li > ul{
+	display:none;
+}
+
+#navigate .selected > ul   {
+	display:block;
+}
+
+#navigate .unselected > ul   {
+	display:none;
+}
+
+#navigate li   {
+	list-style-type:none;
+}
+#navigate ul   {
+	margin-top:0;
+	padding-left:1em;
+	margin-left:0;
+}
+
+
+}
+
+.primarytext {
+	position:fixed;
+	margin-top:2.5em;
+}
+
+li {
+	margin-left:-5px;
+}
+
+h1 {	font-size: 1.1em;
+	text-align: center;
+}
+
+h2 {font-size: 1em;
+    text-align: center;
+    clear: both;
+    padding:16px 0 16px 0;
+    margin:0;
+}
+
+h3 {font-size: 0.9em;
+    text-align: center;
+    clear: both;
+    padding:16px 0 16px 0;
+    margin:0;
+    }
+
+h4 {font-size: 0.8em;
+    text-align: center;
+    clear: both;
+    padding:16px 0 16px 0;
+    margin:0;
+    }
+
+img {border: 0px;
+
+}
+
+td.nowrap {
+  white-space:nowrap;
+}
+
+
+.imgmolecule {
+	float: right;
+	display: inline;
+	text-align: right;
+}
+
+#viewlinks {
+	position: fixed;
+	left: 0px;
+	top: 300px; 
+}
+
+.molecule {
+	display: block;
+	clear: both;
+}
+
+.entrytext {
+	text-align: left;
+	padding: 0;
+   }
+
+.creep_top {
+        position: absolute;
+        left: 0px;
+        top: 233px;
+	
+	z-index: 3;
+}
+
+.creep_bottom {
+        position: absolute;
+        left: 0px;
+        top: 315px;
+	border-width: 2px;
+	margin: 0px;
+	line-height: 0px;
+}
+
+#navigate table.stories {
+	padding: 3px;	
+}
+
+.comment {
+	text-align: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+a:link, a:visited, a:active { 
+	color: green;
+	text-decoration:none;
+}
+
+a.special {color: blue}
+
+table.compact {
+	font-size:8px;
+}
+
+#storiesblock {
+	display:none;
+}
+
+#stories.navstories {
+	position:fixed;
+	top:4em;
+	left:6.5em;
+}
+
+#stories {
+	width:230px;
+	/*padding-left:13px;*/
+	background-color:white;
+	z-index:1; /*to be above the text behind it*/
+}
+
+#stories > table {
+	width:230px;
+	margin-left:-7px;
+}
+
+#stories td {
+	padding:0;
+  	margin:0;
+	font-family: monospace; 
+	font-size:70%;
+}
+
+.storyline {
+	/* start out not displaying anything */
+	display:none;
+}
+
+.highlight {
+	color:red;
+	opacity:0.3;
+}
+
+.indent {
+	padding-left:2em;
+}
+
+#linear {
+	display:none;
+}
+
+.horiz {
+	list-style-type:none;
+}
+
+.horizelt {
+	float:left;
+	display:inline;
+	padding:0px;
+	margin:0px;
+}
+
+.horizelt > div {
+	display:compact;
+	border:1px inset;
+	padding:5px;
+}
+
+.browser-warning
+{ 
+  color:#FF9900;
+  font-weight:bold;
+  width:25em;
+ }

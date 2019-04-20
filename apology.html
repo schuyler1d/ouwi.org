@@ -1,0 +1,996 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">  
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head><title>Designing Ouwi</title>
+<meta name="author" content="Schuyler Duveen" />
+
+<script type="text/javascript" src="js/main.js"></script>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<!--[if lt IE 7]>
+<link href="ie-win.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript">
+onload = function() { maintext.focus() }
+</script>
+<![endif]-->
+
+</head>
+<body>
+<div id="navigate">
+
+</div>
+<div id="maintext">
+<a name="motivations"></a>
+
+<h1>Designing Ouwi</h1>
+
+<p>Ouwi is first, and foremost classifiable as a 'non-linear two
+dimensional writing system.'  If I convince you that it's a good idea,
+but you don't like how Ouwi works, I have tried to break down the
+issues here so you can design your own.  Either way, you should become
+more conscious here of the problems and possibilities of a language
+and writing system like Ouwi.
+</p>
+
+<h2>What's a Non-linear 2D Writing System?</h2>
+
+
+<ul>
+  <li>At a scale greater than word-level (i.e. the grammar), visually branching on a sequence is possible, and has discrete meaning.</li>
+  <li>NOT Roman, NOT Chinese</li>
+  <li>Maybe Mayan? (I don't know enough to say)</li>
+</ul>
+
+<a name="motivations"></a>
+<h2>Motivations: Why go 2D?</h2>
+<ul>
+  <li>Desegregate 'text' and 'diagrams'</li>
+  <li>Fractal and map-like qualities
+     <ul>
+       <li>Zoom in/out (automatic 'table of contents'/outline)</li>
+       <li>Random access: changes and updates to text can appear where most relevant and preserve the coherency of the text (Borg vs. Human conversation)</li>
+     </ul>
+  </li>
+  <li>Definition-inspired motivation:
+     <ul>
+       <li>Branching gives you opportunity to cluster information around
+           a single thing/action/event/etc
+       </li>
+       <li>Merging has the converse benefit--have a multitude and tie it together.
+       </li>
+     </ul>
+  </li>
+  <li>Real world motivation: UML and Flow charts are not expressive enough.  They articulate processes well, but not much more.  What about history, competing plans, theories, competing theories, hopes, motivations, basic 'fact' reporting, etc.</li>
+</ul>
+<h3>Diagram-Text switching</h3>
+<p>Many sensible essays and papers have diagrams which relegate their non-linear points to figures.  However, this is disruptive to the reader.  First they must jump to the diagram, then to the diagram's caption, then back to the diagram, and then back to the text.  Often extra commentary on the diagram is embedded in the text.  This discourages people from using diagrams in their writing, even when a diagram is the best way to communicate an idea.  Another discouraged form of writing is outlines.  People write outlines,but seldom offer it to the reader as an end product (for an interesting exception, see the new edition of The Mythic Man Month )</p>
+<h3>Map-like qualities of text--Issue of random access</h3>
+<p>Once we are familiar with a text, we all enjoy the ability to know directly where to go.  On the web, hyper-linked tables of contents and search give us 'random access'--i.e. we can jump to the part we want.  Non-linear text brings this to all levels.  A useful non-linear writing system can 'zoom in' to the part we want.
+</p>
+<p>Even cooler would be a greater flexibility in juxtaposing two parts of a text.  A good non-linear writing system would not just juxtapose the two parts (which is possible with two columns, for instance), but dynamically express and expose the closest connections to the two parts.
+</p>
+<h3>No text is complete</h3>
+<p>Any complex document builds upon what came beforehand in the document.  How so, though?  The author might bring in examples first, and then offer a theory to explain them.  Alternatively, the author can explain the theory with the examples following to demonstrate the theory.  Either way, other examples could be usefully appended to the text.  New facts or revisions may alter the theory.
+ </p>
+<p>In our current culture of copyright and revulsion of 'plagiarism' the same thing must be repeated over and over in slightly different ways.  In this culture, it helps to express things in words, so we can shift sentences around slightly in order to 'say it differently.'  But if we recognize this exercise as silly, then the kind of text we compose can be more derivative but also more formal.
+</p>
+
+<a name="issues"></a>
+<h2>Challenges and Risks</h2>
+<ul>
+  <li>Risk: Text Fragility (if orientation is significant)
+      <br />
+      What kind of changes to the text will require a radical restructuring 
+      of the text?  We should try and make this only happen for radical
+      changes.
+  </li>
+  <li>Challenge: Collisions and Intersections
+      <br />
+      <a href="http://en.wikipedia.org/wiki/Planar_graph">Planar graph</a> issues:
+     <ul>
+       <li>Basically you must solve: 
+       <br />
+       <img src="images/site/100px-Complete_graph_K5.svg.png" alt="K5" />K<sub>5</sub> and <img src="images/site/100px-Complete_bipartite_graph_K3%2C3.svg.png" alt="K3,3" /> K<sub>3,3</sub>.  These two graphs (and all homeomorphisms) must be either:<ul>
+         <li>Impossible
+	    <dt>sample solution</dt>
+	    <dd>looping only allowed with 4 nodes or less</dd>
+	 </li>
+         <li>Reducible	 
+	    <dt>sample solution</dt>
+	    <dd>any loop can be reduced to a line, if necessary (probably requires pointers)</dd>
+	 </li>
+         <li>Accepted	 
+	    <dt>sample solution</dt>
+	    <dd>special 'escape' character to overlap; e.g. <img src="images/site/cs_wires_not_connected_crossing1.gif" alt="wires not crossing" align="top"/></dd>
+	 </li>
+     </ul>
+       </li>
+     </ul>
+  </li>
+  <li>Challenge: Crowding and scaling
+     <ul>
+       <li>Can units stretch/scale adjacent to non-scaled units?</li>
+       <li>How much does this decrease readability?
+       </li>
+       <li>Can scaling work organically?</li>
+     </ul>
+  </li>
+  <li>Challenge: Relation to Phonology.  If the writing system must conform to a linear 'Spell-Out' then there must be a phonetic way to indicate a branch, and how to return to a particular bifurcation.
+  </li>
+</ul>
+
+<h3>Non-Challenges</h3>
+
+<p>Some things look like problems, but I don't see them as such.</p>
+<ul>
+  <li>Won't it take too much space?
+
+      <p>It's often mentioned that non-linear expression takes up more
+      space on the page than linear writing.  I'll concede that for
+      short sentences, non-linear writing takes more space.  For
+      larger texts, however, I believe that non-linear writing has the
+      advantage.
+      </p>
+
+      </p>Another response to this issue is that space is going to
+      matter less in the future.  In the past, both paper and ink were
+      costly commodities, which needed to be conserved, so achieving
+      maximum density was important.  On electronic screens, the
+      economics of making sure every other dot on a page is black
+      (i.e. maximum density) is irrelevant.  Currently, we still live
+      in a world with relatively small screens, but this is changing,
+      too.
+      </p>
+  </li>
+  <li>Why not 3D?  
+
+  <p>Since video games are evolving into virtual
+  reality, we may ask why we should waste time moving to a 2D system
+  when we might just jump to a 3d system!  </p>
+
+  <p> We should be
+  sympathetic to a project which uses shadows, perspective, and size
+  as communicative elements, but this is still 2 dimensional, and
+  personally, I prefer to give these elements (along with color) to
+  the designer rather than imbue them with meaning--otherwise you get
+  the complicated problem similar to writing songs for an intonated
+  language.  </p>
+
+  <p>Another response is that Ouwi is still essentially
+  a 1d language, in that all communication is made up of diverging and
+  converging 1d-strings.  The most fundamental part of Ouwi is how it
+  <i>connects</i> words.  This is potentially even more versatile in
+  3d, where a big concern in 2d (overlapping lines) just goes away.
+  So, if the opportunity becomes useful, Ouwi could be 3d in the
+  future.
+  </p>
+
+  </li>
+</ul>
+
+
+<a name="options"></a>
+<h2>Choices: Points of Freedom</h2>
+<p>If you want to design your own 2d writing system consider some of these points of freedom you have available.
+</p>
+<ul>
+  <li>Which 'level' to branch/merge or connect at.  These aren't meant to be comprehensive or mutually exclusive.
+    <ol>
+      <li>Sentences are linked <br /><img src="images/site/nl2dws-sentence-1.gif" alt="sentences linked" /></li>
+      <li>Words are linked <br /><img src="images/site/nl2dws-sentence-2.gif" alt="words linked" /></li>
+      <li>Sentences cross <br /><img src="images/site/nl2dws-sentence-3.gif" alt="sentences cross" /></li>
+      <li>Sentences merge <br /><img src="images/site/nl2dws-sentence-4.gif" alt="sentences merge" /></li>
+      <li>Sentences are meaningless <br /><img src="images/site/nl2dws-sentence-5.gif" alt="sentences are meaningless" /></li>
+    </ol>
+  </li>
+  <li>What to branch?  This is probably the heart of your design.  Good candidates:
+    <ul>
+      <li>conjunctions</li>
+      <li>tense</li>
+      <li>noun cases</li>
+      <li>subordinate clauses</li>
+    </ul>
+  </li>
+  <li>Do you want to allow pointers (i.e. disjoint non-contextual references) ?</li>
+  <li>Do you want to preserve the ability to tell a sequential story (discrete or conventional start/end points)?</li>
+  <li>Spaces or lines? (aesthetic/input considerations: technically, one can map to the other) <!--picture -->
+  </li>
+</ul>
+
+<a name="principles"></a>
+<h2>Design Principles</h2>
+<p>These are the principles I've used in developing Ouwi.  What's a show stopper that makes me go back to the drawing board and consider more radical options to avoid a problem?  What can I handwave away?  These are choices that I consider non-universal when approaching the design of a non-linear writing system.
+</p>
+<h3>Non-Linearity</h3>
+<p>Connections and Intersections should mean something</p>
+
+   <ol>
+     <li>Must be able to rearrange a graph to avoid non-overlapping connections</li>
+     <li>Openness: a great potential advantage of non-linearity is its map-like and graph-like quality
+        <ul>
+	     <li>Random access to concepts expressed in a text</li>
+	     <li>If texts will change radically upon a modification, this means people have to recreate the entire text.  Avoid forced radical changes to text if at all possible--i.e. extra information on a pre-existing 'sentence' should feel like an annotation.  Where not possible, can a computer assist the layout?</li>
+        </ul>
+     </li>
+     <li>Space/Density
+        <ul>
+	  <li>Density of text on a page isn't as important as clarity
+	    <ul>
+	      <li>Computer screens are the future. Paper is dead.</li>
+	      <li>On computer screens people can zoom in/out of a text.  This is fine.</li>
+	    </ul>
+	  </li>
+	  <li>Word constructions that loop closely to each other can look quite puzzling.  Sometimes, elegant meanings will encourage this, but I'd rather it be possible to express these things with a single intersection rather than loop around too quickly, which will look like a knot for the poor reader to untie with their mind.  
+<br /><br />
+This relates to orthogonality (see below in Language)--a tight construction may feel elegant to the designer, but even though we branch/merge, the point is to allow the user to follow the path they want to--not to make it difficult to see how the path goes.</li>
+        </ul>
+     </li>
+   </ol>
+
+<h3>Language</h3>
+<ol start="4">
+<li>Minimal native-set of vocabulary; the grammar should accomodate other languages and symbols</li>
+<li>Orthogonality (words not overlapping their meaning/sense) is desirable, but too much creates obscure constructions.</li>
+<li>Certain things should be more obvious than others.  Larry Wall, the designer of the Perl programming language, is famous for observing that nouns should be easily identified (In Ouwi, a circle in a letter sort of serves this purpose).  Same for questions and negatives (i.e. saying "jump" should be as different as possible from "Don't jump."</li>
+<li>Simple, more consistant rules are better: across letters, across letters that look the same, 
+    across types of intersections, etc.
+</li>
+</ol>
+
+<!--a name="comp"></a>
+<h2>Comparisons with Other Systems</h2>
+
+<h3>UML</h3>
+<h3>Flow Charts</h3>
+<h3><a href="http://jjg.net/ia/visvocab/">Garrett IA Visual Vocabulary</a></h3>
+
+<h3>Game Theory Diagrams</h3>
+<h3>"Thought Maps"</h3>
+-->
+
+<a name="history"></a>
+<h2>A Perspective on Ouwi's Evolution</h2>
+   <h3>Lines vs. Regions: A Map of Roads, Not Lands</h3>
+
+   <h3>Joints: Line, Space, Intersection</h3>
+      <p>If you were to identify the singular design feature of Ouwi, it would be
+         how letters intersect with others.
+	 </p>
+       <h4>The Benefits</h4>
+         <ul>
+	   <li>Diverging from a context</li>
+	   <li>Aligning "conditions" with the direct object</li>
+	 </ul>
+       <h4>The Problems</h4>
+         <ul>
+	   <li>How likely is it that intersection can always be meaningful?</li>
+	   <li>Ambiguity of who the actor is: The current design does not always
+	       put the entity controlling the action at the same end of an intersection.
+	       I've tried to make this more consistant, but some intersections are
+	       too compelling to make this entirely consistant.  If intersection
+	       were more closely related to the actor, it would easier to explain
+	       this relationship.
+	   </li>
+	 </ul>
+       <h4>Avoided Issues by Design</h4>
+         <ul>
+           <li><a name="IvsII"></a>
+	       <table border="0">
+		 <tr> <td>Model I:</td><td>vs.</td><td>Model II:</td></tr>
+		 <tr><td>
+		   <img alt="ouwi example" src="images/writing/model-I.gif"  />
+		 </td>
+		 <td></td>
+		 <td>
+		   <img alt="ouwi example" src="images/writing/model-II.gif"  />
+		 </td>
+		 </tr>
+	       </table>
+	       <p>Ouwi chooses Model I, for which space corresponds to which joint and line segment (when it's intersected). Though Model II might be more inuitive to some people, when figuring out what double-intersections mean associativity becomes a problem.  I found when trying to use Model II, the intersection relationships possible tended to be overly bland, and thus less expressive/useful.
+	       </p>
+	       <p>I should note that these aren't the only possible options.  There are two others, but they are even less intuitive and offer no more benefits that either of these.
+	       </p>
+	     </li>
+         </ul>
+       <h4>Actual History</h4>
+         <p>Joints were a feature fairly early in the development of Ouwi's writing system, but I still discover
+	    new aspects of the consequences of intersections.  
+
+	 </p><p>
+	 Most recently,
+	 when I realized there was too little visual difference in the spaces 
+	 for do/do not in <img src="images/icon-e.jpg"  alt="e" />, I 
+	 decided to allow the first joint to cross lines. 
+	    
+	 </p><p>
+	 </p>
+   <h3>Radiation</h3>
+     <p>This has the advantages of a relaxed graph (nodes with edges), with a little
+        more rigor: radiation is only allowed from one direction.  This makes a problem for
+	layout, but then offers the advantage of defining a 'space' more thoroughly for
+	the context of radiation.  Furthermore, it reserves the other side, and the serial
+	context of the letter for defining that context and linking it to the
+	rest of a larger document.
+	</p>
+   <h3>Random Letters</h3>
+     <p>The initial letters were, for all intents and purposes, random.  They came out of
+        inspiration during a class on Modern Geometry (taught by Brian Greene at Columbia)--not an
+	informed one: it was a very Jungian take-away.  They might as well have been
+	Cyrillic characters backwards, or anything else.  
+     </p><p>
+        Since then, especially when some crisis appeared, I've revisited my choices, with
+	some admitted sentimental need to keep them as-is.  Thus, I've been incredibly 
+	conservative in changing the letters.
+     </p><p>
+        So, is this baggage that when discarded would make the language better?
+	Not necessarily.  The letters represent a variety of types: symmetric and asymmetric, able to intersect and 'passive' letters, etc.  Instead of the
+	letters changing, the meanings have shifted to the (hopefully) appropriate type of letter.  
+     </p><p>
+     </p>
+   <h3></h3>
+
+
+
+   <h3>Linguistic Spell-out</h3>
+<h4>Goals</h4>
+
+<ul><li><b>things that should be unambiguous</b>
+<ul>
+<li><b>nouns:</b> <b>mo</b> and <b>mou</b> and things in the spaces (though there could be an implicit <b>mo</b> in them):
+<img src="images/icon-o.jpg" alt="o" /> <img src="images/icon-ou.jpg" alt="ou" /></li>
+<li><b>negation:</b> second space and first joint on <b>meh</b>: <img src="images/icon-e.jpg" alt="me" /></li>
+</ul>
+</li>
+<li><b>things that should be quick</b>
+<ul>
+<li>tense</li>
+</ul>
+</li>
+<li><b>things that should be place markers</b>
+<ul>
+<li>spaces</li>
+<li>untouched corners/lines</li>
+<li>the second branch on a mou letter</li>
+</ul>
+</li>
+</ul>
+
+<a name="phonemes"></a>
+<h4>Phonetic Mapping</h4>
+'y' and 'w' correspond to /i/ and /u:/.  if we take dipthongs/vowel glides oi,ai,ei to be short for oyi,ayi,eyi, then we can use /i/ with vowels that glide easily for shortening common expressions.  Similarly, 'awu' can be used (ewu is already a reserved vowel, so we can't use that unless we came up with an extra vowel).  I use these two features to make <b>muu</b> (now /i/) passive intersection and <b>ma</b> (now /u:/) with <b>mi</b> (now /&#x251;/) to make past-tense quick, with "a(w)u" and "u(w)a."  The rest of the vowels are filled in somewhat arbitrarily.
+<br />
+
+<img src="images/icon-o.jpg"  alt="o" />o (/ou/);
+<img src="images/icon-ou.jpg"  alt="ou" />ou (/&#248;/);<
+<img src="images/icon-i.jpg"  alt="i" /><b>a (/&#x251;/);</b>
+<img src="images/icon-u.jpg"  alt="u" />uh (/&#x28C;/);
+<br />
+<img src="images/icon-ei.jpg"  alt="ei" />i (/&#618;/);
+<img src="images/icon-au.jpg"  alt="au" /><b>uu (/u:/);</b>
+<img src="images/icon-ee.jpg"  alt="ee" />e (/e/);
+<br />
+<img src="images/icon-e.jpg"  alt="e" />Russian yari (hard 'i')
+<img src="images/icon-ae.jpg"  alt="ae" />'a'(british 'mat');
+<img src="images/icon-uu.jpg"  alt="uu" /><b>ee (/i/);</b>
+
+<br />
+y=passive intersection by muu ('ai', 'oi', 'ei'); also active intersection _by_ muu's point; this is so 'a(y)i' turns into 'ai' "naturally."
+<br />
+w= ([s,f,t,sh,th,g,gh,k,h,?l]u[&#x251;,&#618;,e,ou]--aesthetic order: s,h,k,f)
+<br />
+'uwa'=past tense; so does 'au'
+; i kind of like 'h' meaning passive radiation...
+<br />
+r= ([f,l,sh,th,g,b,th,ch,?t(if rolled)],v,k--aesthetic order: b,g,l,th,f,v,p)
+<br />
+s= triplets: skr,str,spr; doubles: sl, sr, sn, sf
+<br />
+<b>Consonants available:</b> q @ g ch kh [take 2: n, j]
+<br />
+<b>Consonants used:</b> m ' n z t sh w k s th v y l b r d dh h p
+<br />
+<b>Moon/Sun:</b> [s,z] [m,n] [b,p] [d,t] 
+
+<img src="images/phonemes.gif" alt="phonemes" align="left" />
+<table border="1" cellpadding="2">
+<tr><td>Needed</td><td>Avail.</td><td>Used</td><td>Left</td></tr>
+<tr><td>all (4)</td><td>2</td><td>[m,n],dh,g,[',th] (6)</td><td>-4</td></tr>
+<tr><td>2li's (7)</td><td>1+?1<br />+s6</td><td>[t,d],w,ch,[h,f],y,[p,b] (8)<br />(tr)</td><td>-?6</td></tr>
+<tr><td>tli's (10)</td><td>8</td><td>r,k,[s,z],sh,j (5)<br />(rl,kr,rch,rk,rt)</td><td>+3</td></tr>
+<tr><td>1,2,8,9 (2)</td><td>3</td><td>l,v (2)</td><td>+1</td></tr>
+<tr><td>mou (1)</td><td>1</td><td>z (1)</td><td>0</td></tr>
+<tr><td>muu's (6)</td><td>6</td><td>kh, q, ng, [ch] (3) (rv,vr)</td><td>+3</td></tr>
+<tr><td>extra (0)</td><td>4</td><td></td><td>+4</td></tr>
+<tr><td>Total:</td><td>27</td><td>25</td></tr>
+</table>
+
+if 's' is rad-2, then suffixing 's' to a consonant cluster, can mean that after the next vowel is spoken, the 'context' returns to the remaining space from a double intersection or otherwise
+<!--
+<del date="6/3/05">after a double intersection, using the consonant for radiating 2/3, should mean the opposing space, e.g. 'mwaree' would mean 'past w/ mee radiating from [when]' </del> -->
+
+<!--OLD PRONUNCIATION SCHEMES 
+<pre>Working Consonants:
+m=linear
+t=first spatial
+s=2nd spatial
+k=dbl intersection thru middle
+sh=intersection of tird
+n=rejoin past thread
+'ch=dbl intersection double middle
+g=dbl intersection, first 
+b=passive intersection 2
+r=intersect active 1
+</pre>
+ 
+<a name="two"></a>
+<h2>Second Possibility</h2>
+<pre>m = serial
+k = line intersected by a corner
+l = line also interected by a corner (uu's line-curve corner?)
+kn = double intersection
+n? = place marker?
+
+d = radiating from a space
+s? = place marker? (for mou?)
+t = return back to 's' placemarker and continue off other path
+</pre>
+-->
+<a name="stories"></a>
+<h2>Integration with the Stories</h2>
+<p>There are some native story words (consonant-vowel pairs) which I want more accessible, than other native words.  That is, those words should be a single syllable and thus, we need to make sure that the consonant meanings for connecting vowels doesn't intersect a particular story's important native words.  
+</p><p>
+For example, the following consonant #'s in the Waters story are all senses which are pretty important (In English, 'see','hear','touch', etc are all a single syllable).  Since senses would appear as passive intersection, we conclude:
+</p>
+<ul>
+<li>i: 2, 5, 8, 11, 14, 17, 20, 23 shouldn't be for passive intersection (1 and 2, anyway) since the senses should be available (I see a bird: mo 'i?it-bird) [now: ', z, gh, k, j, y, n, h]</li>
+</ul>
+
+<p>distributing the rest:<br /> [t,d]=2li; [p,b]=2li; [n,ng]=universal (muu free on both); [',th]=universal; 
+</p>
+
+<p>
+starting "m ' n" gives it a sonic quality, but m and ' are both universal-oriented.
+</p>
+<table border="1">
+<tr>
+  <td>#'s</td>
+  <td><img src="images/icon-o.jpg"  alt="o" />
+</td><td>
+<img src="images/icon-ou.jpg"  alt="ou" />
+</td><td>
+<img src="images/icon-i.jpg"  alt="i" />
+</td><td>
+<img src="images/icon-ei.jpg"  alt="ei" />
+</td><td>
+<img src="images/icon-au.jpg"  alt="au" />
+</td><td>
+<img src="images/icon-ee.jpg"  alt="ee" />
+</td><td>
+<img src="images/icon-e.jpg"  alt="e" />
+</td><td>
+<img src="images/icon-ae.jpg"  alt="ae" />
+</td><td>
+<img src="images/icon-uu.jpg"  alt="uu" />
+</td>
+<td>possible</td>
+<td>letters</td>
+<td colspan="3">tries</td>
+<td>Final</td>
+</tr>
+<tr>
+  <td>1</td>
+  <td>X</td>
+  <td></td>
+  <td>X</td>
+  <td>X</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>X</td>
+  <td>X</td>
+  <td>extra</td>
+<td></td><td>'</td>
+<td>m</td>
+<td>m</td>
+<td>m</td>
+</tr>
+<tr>
+  <td>2</td>
+  <td></td>
+  <td>X</td>
+  <td>X</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>X</td>
+  <td>X</td>
+  <td></td>
+  <td>muu</td>
+<td>g,kh,q,???</td>
+<td>t</td>
+<td>'</td>
+<td>'</td>
+<td>'</td>
+</tr>
+<tr>
+  <td>3</td>
+  <td></td>
+  <td>X</td>
+  <td></td>
+  <td></td>
+  <td>X</td>
+  <td></td>
+  <td>X</td>
+  <td></td>
+  <td></td>
+  <td>muu</td>
+<td>g,kh,q,???</td>
+<td>q</td>
+<td>n</td>
+<td>n</td>
+<td>n</td>
+</tr>
+<tr>
+  <td>4</td>
+  <td>X</td>
+  <td>X</td>
+  <td>X</td>
+  <td>X</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>X</td>
+  <td>extra</td>
+  <td></td>
+<td>f</td>
+<td>d</td>
+<td>t</td>
+<td>h</td>
+</tr>
+<tr>
+  <td>5</td>
+  <td></td>
+  <td>X</td>
+  <td>X</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>third leg item</td>
+<td>r,k,s,sh,j,???</td>
+<td>r</td>
+<td>k</td>
+<td>s</td>
+<td>p</td>
+</tr>
+<tr>
+  <td>6</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>X</td>
+  <td></td>
+  <td>X</td>
+  <td>X</td>
+  <td></td>
+  <td> ip2? </td>
+<td>ch</td>
+<td>ch</td>
+<td>ch</td>
+<td>ch</td>
+<td>ch</td>
+</tr>
+<tr>
+  <td>7</td>
+  <td></td>
+  <td></td>
+  <td>?</td>
+  <td></td>
+  <td>X</td>
+  <td>X</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>1,2,8,9</td>
+<td>l,v,?</td>
+<td>l</td>
+<td>l</td>
+<td>v</td>
+<td>l</tr>
+<tr>
+  <td>8</td>
+  <td></td>
+  <td></td>
+  <td>X</td>
+  <td></td>
+  <td>X</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>1,2,8,9</td>
+<td>l,v,?</td>
+<td>v</td>
+<td>v</td>
+<td>l</td>
+<td>v</td>
+</tr>
+<tr>
+  <td>9</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>X</td>
+  <td>X</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>1,2,8,9</td>
+<td>l,v,?</td>
+<td>th</td>
+<td>t</td>
+<td>d</td>
+<td>th</td>
+</tr>
+<tr>
+  <td>10</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>universal</td>
+<td>m,dh</td>
+<td>m</td>
+<td>g</td>
+<td>dh</td>
+<td>g</td>
+</tr>
+<tr>
+  <td>11</td>
+  <td></td>
+  <td></td>
+  <td>X</td>
+  <td></td>
+  <td></td>
+  <td>X</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>third leg item</td>
+<td>r,k,s,sh,j,???</td>
+<td>n</td>
+<td>f</td>
+<td>b</td>
+<td>k</td>
+</tr>
+<tr>
+  <td>12</td>
+  <td></td>
+  <td>X</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>X</td>
+  <td></td>
+  <td></td>
+  <td>muu</td>
+<td>g,kh,q,???</td>
+<td>g</td>
+<td>h</td>
+<td>f</td>
+<td>kh</td>
+</tr>
+<tr>
+  <td>13</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>X</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>third leg item</td>
+<td>r,k,s,sh,j,???</td>
+<td>d</td>
+<td>th</td>
+<td>r</td>
+<td>f</td>
+</tr>
+<tr>
+  <td>14</td>
+  <td>X</td>
+  <td></td>
+  <td>X</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>third leg item</td>
+<td>r,k,s,sh,j,???</td>
+<td>sh</td>
+<td>j</td>
+<td>th</td>
+<td>r</td>
+</tr>
+<tr>
+  <td>15</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>X</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>X</td>
+  <td></td>
+  <td>muu</td>
+<td>g,kh,q,???</td>
+<td>kh</td>
+<td>q</td>
+<td>q</td>
+<td>q</td>
+</tr>
+<tr>
+  <td>16</td>
+  <td>X</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>X</td>
+  <td></td>
+  <td></td>
+  <td>X</td>
+  <td>mou</td>
+<td>z</td>
+<td>z</td>
+<td>z</td>
+<td>z</td>
+<td>z</td>
+</tr>
+<tr>
+  <td>17</td>
+  <td>X</td>
+  <td></td>
+  <td>X</td>
+  <td></td>
+  <td></td>
+  <td>?</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>third leg item</td>
+<td>r,k,s,sh,j,???</td>
+<td>k</td>
+<td>sh</td>
+<td>sh</td>
+<td>j</td>
+</tr>
+<tr>
+  <td>18</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>X</td>
+  <td></td>
+  <td>X &#8595;?</td>
+  <td></td>
+  <td>?third leg item</td>
+<td>(r,k,s,sh,j,???)</td>
+<td>h</td>
+<td><del>s</del></td>
+<td>h</td>
+<td>b</td>
+</tr>
+<tr>
+  <td>19</td>
+  <td></td>
+  <td>X</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>X</td>
+  <td></td>
+  <td>X</td>
+  <td>extra</td>
+<td></td>
+<td>p</td>
+<td>b</td>
+<td>p</td>
+<td>t</td>
+</tr>
+<tr>
+  <td>20</td>
+  <td>X</td>
+  <td></td>
+  <td>X</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>third leg item</td>
+<td>r,k,s,sh,j,???</td>
+<td>j</td>
+<td>r</td>
+<td>k</td>
+<td>sh</td>
+</tr>
+<tr>
+  <td>21</td>
+  <td>X</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>2nd leg item</td>
+<td>y</td>
+<td>y</td>
+<td>y</td>
+<td>y</td>
+<td>y</td>
+</tr>
+
+<tr>
+  <td>22</td>
+  <td>X</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>X</td>
+  <td></td>
+  <td>X</td>
+  <td></td>
+  <td>muu</td>
+<td>g,kh,q,???</td>
+<td>b</td>
+<td>kh</td>
+<td>kh</td>
+<td>d</td>
+</tr>
+<tr>
+  <td>23</td>
+  <td>X</td>
+  <td></td>
+  <td>X</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>third leg item</td>
+<td>r,k,s,sh,j,???</td>
+<td>s</td>
+<td>p</td>
+<td>j</td>
+<td>s</td>
+</tr>
+<tr>
+  <td>24</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>universal</td>
+<td>m,dh</td>
+<td>dh</td>
+<td>dh</td>
+<td>g</td>
+<td>dh</td>
+</tr>
+<tr>
+  <td>25</td>
+  <td></td>
+  <td>X</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>third leg item</td>
+<td>w</td>
+<td>w</td>
+<td>w</td>
+<td>w</td>
+<td>w</td>
+</tr>
+<tr>
+  <td>26</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>X</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>X</td>
+  <td>extra</td>
+  <td></td>
+<td>@</td>
+<td>@</td>
+<td>@</td>
+<td>@</td>
+</tr>
+<tr>
+  <td>27</td>
+  <td>?</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>X</td>
+  <td></td>
+  <td>muu</td>
+<td>g,kh,q,???</td>
+<td>ng</td>
+<td>ng</td>
+<td>ng</td>
+<td>ng</td>
+</tr>
+
+<tr>
+  <td>#'s</td>
+  <td><img src="images/icon-o.jpg"  alt="o" />
+</td><td>
+<img src="images/icon-ou.jpg"  alt="ou" />
+</td><td>
+<img src="images/icon-i.jpg"  alt="i" />
+</td><td>
+<img src="images/icon-ei.jpg"  alt="ei" />
+</td><td>
+<img src="images/icon-au.jpg"  alt="au" />
+</td><td>
+<img src="images/icon-ee.jpg"  alt="ee" />
+</td><td>
+<img src="images/icon-e.jpg"  alt="e" />
+</td><td>
+<img src="images/icon-ae.jpg"  alt="ae" />
+</td><td>
+<img src="images/icon-uu.jpg"  alt="uu" />
+</td>
+
+</tr>
+
+</table>
+
+
+
+</div>
+
+</body>
+</html>

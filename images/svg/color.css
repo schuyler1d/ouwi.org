@@ -1,0 +1,91 @@
+#background {
+	fill:none;
+}
+
+.word {
+	pointer-events:all;
+	fill:none;
+	visibility:hidden;
+	stroke-width:3px;
+}
+
+#w1 {
+	opacity:0.4;
+	visibility:visible;
+	fill:url(eem.svg#dawn);
+}
+#w2 {
+	fill:url(eem.svg#painted);
+}
+
+#w7 {
+	visibility:visible;
+	stroke:green;
+}
+
+#w8 {
+	visibility:visible;
+	stroke:green;
+}
+
+#w9 {
+	visibility:visible;
+	stroke:violet;
+}
+#w11 {
+	visibility:visible;
+	stroke:red;
+}
+#w13 {
+	visibility:visible;
+	stroke:yellow;
+}
+
+#w16 {
+	visibility:visible;
+	stroke:violet;
+}
+
+#w18 {
+	visibility:visible;
+	stroke:blue;
+}
+#w22 {
+	visibility:visible;
+	stroke:orange;
+}
+#w22.highlight {
+	fill:url(eem.svg#orange);
+}
+#w22.posthighlight {
+	fill:url(eem.svg#orange);
+}
+
+#w23.highlight {
+	visibility:visible;
+	fill:url(eem.svg#butterfly);
+}
+#w24.highlight {
+	visibility:visible;
+	fill:url(eem.svg#butterfly);
+}
+#w25.highlight {
+	visibility:visible;
+	fill:url(eem.svg#butterfly);
+}
+#w26.highlight {
+	visibility:visible;
+	fill:url(eem.svg#butterfly);
+}
+
+
+
+
+.highlight {
+	opacity:0.4;
+	visibility:visible;
+	stroke-width:15px;
+	fill:none;
+	stroke:black;
+}
+

@@ -1,0 +1,223 @@
+<?xml version="1.0"?>
+
+<vowel ref="6" name="au">
+<title>Law</title>
+<image>au.jpg</image>
+<notation>[1st bend, 2nd bend]</notation>
+<pronunciation>/&#x251;/ like the 'o' in 'pot'
+</pronunciation>
+<w id="1">
+<d>opponent, enemy, terrorist [what do they do, what do we do, similar]
+</d>
+</w>
+
+<w id="2">
+<d>limited resources [limited to use/own, ?technology, limited ppl to use them, ?politics] [volume]
+</d>
+</w>
+
+<w id="3">
+<d>[member, group]
+</d>
+</w>
+
+<w id="4">
+<d>who are you? [reply, reason for asking, justification]
+</d>
+</w>
+
+<w id="5">
+<d>protester how can you ask that? [what does the protester say, how strong are they/judgement]
+</d>
+</w>
+
+<w id="6">
+<d>minority, fraction, division [fraction diminished, parts of the whole]
+</d>
+</w>
+
+<w id="7">
+<d>grouping, spread [where did they go, how happy are they]
+</d>
+</w>
+
+<w id="8">
+<d>action/deed/doing [what was said before?, what was said after?]
+</d>
+</w>
+
+<w id="9">
+<d>name, ?place, to rally with/at [how replaceable, something attackable] (surface tension)
+</d>
+</w>
+
+<w id="10">
+<d>report [?origin?, tradition]
+</d>
+</w>
+
+<w id="11">
+<d>echo, repeater, publisher, merchant [original sources (from), stability and archival access]
+</d>
+</w>
+
+<w id="12">
+<d>construct alliance, contract, plan [statement, statement of the statement to be signed]
+</d>
+</w>
+
+<w id="13">
+<d>trust [public, private (me/my group)]
+</d>
+</w>
+
+<w id="14">
+<d>gift, leave something behind, mark something
+</d>
+</w>
+
+<w id="15">
+<d>metaphor [truth, lie/fiction]
+</d>
+<n>
+(bound to truism or linguistic contradiction)
+</n>
+</w>
+
+<w id="16">
+<d>erasure [very seriously, teleology]
+</d>
+<n>
++consonant=betrayal
+</n>
+</w>
+
+<w id="17">
+<d>go do it yourself [which was started first, which was "finished" first]
+</d>
+</w>
+
+<w id="18">
+<d>nationalism [solution?, problem?]
+</d>
+</w>
+
+<w id="19">
+<d>filling an empty space (a child) [means, end]
+</d>
+</w>
+
+<w id="20">
+<d>subordinate pragmatically
+</d>
+</w>
+
+<w id="21">
+<d>sword [responsibility, distracted from something else]
+</d>
+</w>
+
+<w id="22">
+<d>compromise [, switch alliance]
+</d>
+</w>
+
+<w id="23">
+<d>entropy
+</d>
+</w>
+
+<w id="24">
+<d>trapped [urgency,]
+</d>
+</w>
+
+<w id="25">
+<d>summary of 2-8, 'politics'
+</d>
+</w>
+
+<w id="26">
+<d>temperature
+</d>
+</w>
+
+<w id="27">
+<d>[agree, disagree]
+</d>
+<n>
+determined by placement of the consonant on the 'agreement' side
+</n>
+</w>
+
+<translation>
+<s refid="1">There is the enemy and there is us.</s><s refid="2">
+<br />
+We have a finite set of resources</s>
+<ul><s refid="2">
+  And finite people
+<br />
+  How do we distribute each to each (to use and consume)?</s><s refid="3">
+<ul>
+    At the individual level?
+<br />
+    At the group level?
+</ul>
+</s><s refid="4">
+  Someone asks these questions</s><s refid="5">
+<ul>
+    And they are answered with
+<br />
+    Decisions and protests
+</ul></s><s refid="6">
+  Groups mediate it.</s><s refid="7">
+<br />
+  Individuals adjust their actions</s><s refid="8">
+<br />
+  Their actions</s><s refid="9"> may be named,</s><s refid="10">reported,</s><s refid="11">published</s><s refid="12">
+<ul>
+    And maybe this will even help them negotiate the answers.
+</ul>
+  Binding and unbinding contracts and alliances</s>
+<ul><s refid="13">
+    Require trust</s><s refid="14">
+<br />
+    Require gifts [to whom?]</s><s refid="15">
+<br />
+    Which lead to metaphors; practical metaphors
+<ul>
+      Which are <i>both</i> truth and fiction: obvious truths, obvious fictions
+<br />
+      Depending on interpretation and perspective
+</ul></s>
+</ul><s refid="16">
+  Judgements erase the truth</s>
+<ul><s refid="17">
+    Exclude access</s><s refid="18">
+    Define negatives</s><s refid="19">
+<br />
+    Which still always leaves a lot of empty space, open opportunities</s>
+</ul><s refid="20">
+  A path always exists to subordinate pragmatically</s>
+<ul><s refid="21">
+    And use what power is in the system</s><s refid="22">
+    And compromise for change</s>
+</ul><s refid="23">
+  Entropy negotiates this enclosed space with</s>
+<ul>
+    <s refid="25">Politics of power</s><s refid="26">
+    And politics of expression</s>
+</ul><s refid="24">
+  Every one is trapped within entropy
+<ul>
+    But not within that path.
+</ul></s><s refid="27">
+  The enclosed space and metaphors
+<ul>
+    Negotiates your decision
+</ul></s>
+</ul>
+</translation>
+</vowel>
+
+

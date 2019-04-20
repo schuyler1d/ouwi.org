@@ -1,0 +1,3 @@
+sabcmd vowel.xsl $1.xml ../www/$1.html
+#sabcmd brief.xsl $1.xml ../printouts/brief/$1.html
+#chmod a+rx ../$1.html ../printouts/brief/$1.html

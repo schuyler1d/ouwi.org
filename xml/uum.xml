@@ -1,0 +1,189 @@
+<?xml version="1.0"?>
+
+<vowel ref="10" name="uu">
+<title>The Other</title>
+<image>uu.jpg</image>
+<pronunciation>/u:/ like the 'oo' in 'moo'
+</pronunciation>
+<w id="1">
+<d>well travelled path
+</d>
+</w>
+
+<w id="2">
+<d>pool/oasis
+</d>
+</w>
+
+<w id="3">
+<d>cleaned/bathed
+</d>
+</w>
+
+<w id="4">
+<d>animal
+</d>
+</w>
+
+<w id="5">
+<d>uninvited
+</d>
+</w>
+
+<w id="6">
+<d>entertained/spoke with, enjoyed company of
+</d>
+</w>
+
+<w id="7">
+<d>doors (entering)
+</d>
+</w>
+
+<w id="8">
+<d>last guest/one to arrive
+</d>
+</w>
+
+<w id="9">
+<d>all present, other guests
+</d>
+</w>
+
+<w id="10">
+<d>marvelled/realized
+</d>
+</w>
+
+<w id="11">
+<d>(her/his) beauty
+</d>
+</w>
+
+<w id="12">
+<d>(in a) foreign, individual, distinct way
+</d>
+</w>
+
+<w id="13">
+<d>"where had s/he been?" they asked
+</d>
+</w>
+
+<w id="14">
+<d>confessed, elaborated, explained [truthfully]
+</d>
+</w>
+
+<w id="15">
+<d>(they) decided
+</d>
+</w>
+
+<w id="16">
+<d>guilty, at fault [responsible]
+</d>
+</w>
+
+<w id="17">
+<d>(of the) rules
+</d>
+</w>
+
+<w id="18">
+<d>(which they) had agreed [prior to her/his entrance]
+</d>
+</w>
+
+<w id="19">
+<d>(at the) table [arrangement of seats]
+</d>
+</w>
+
+<w id="20">
+<d>(but the doors were) closed [closed system]
+</d>
+</w>
+
+<w id="21">
+<d>(they) punished/beat her/him
+</d>
+</w>
+
+<w id="22">
+<d>(causing her/him) pain/anguish
+</d>
+</w>
+
+<w id="23">
+<d>(but then returned) and met them equally
+</d>
+</w>
+
+<w id="24">
+<d>(but others were in ) different, changed situation (of guilt)
+</d>
+</w>
+
+<w id="25">
+<d>looking at infinity--the impossibility of continuing
+</d>
+</w>
+
+<w id="26">
+<d>(they) stopped w/o an alternative/answer
+</d>
+</w>
+
+<w id="27">
+<d>(and so their) saga/need (for salvation/unfinished story)
+</d>
+</w>
+
+<translation>
+<s refid="1">Along a beaten, dusty path,
+walked a woman, alone.</s><s refid="2">
+Coming across an oasis,</s><s refid="3"> she bathed,</s><s refid="4">
+and there met an animal.</s><s refid="5">
+  Uninvited to the party the woman was attending, </s><s refid="6">
+  they enjoyed each other's company at the oasis.</s><s refid="7">
+The woman then went on, and came to the great doors
+of the feast.  She entered, </s><s refid="8">and found that she was the
+last guest to arrive.
+</s><s refid="9">
+All other guests looked her way,</s><s refid="10"> and marvelled</s><s refid="11"> at her
+beauty,</s><s refid="12"> each appreciating her greatness in a distinct way.
+</s><s refid="13">
+"Where had she been?" they asked.
+</s><s refid="14">
+She explained where she had traveled and what she had
+done truthfully.
+</s><s refid="15">
+The other guests decided </s><s refid="16"> that she was guilty</s><s refid="17">
+of breaking the rules </s><s refid="18">they had agreed upon prior to her arrival
+</s><s refid="19">
+at the banquet table.
+</s><s refid="20">
+However, the doors had been closed, and the rules no longer
+permitted banishment.
+</s><s refid="21">
+Thus, they beat her, 
+</s><s refid="22">
+causing her great suffering.
+</s><s refid="23">
+Now, however, she met them equally.
+</s><s refid="24">
+The situation had now changed, and the other guests noted
+they themselves were guilty of their own rules.
+</s><s refid="25">
+Looking to the future, they realized punishing themselves would
+endure forever.
+</s><s refid="26">
+Thus, they stopped without an alternative to their current rules.
+</s><s refid="27">
+And so, the saga goes on and the story is unfinished.
+</s>
+</translation>
+
+
+</vowel>

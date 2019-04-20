@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+
+<consonants>
+<c id="1">
+m
+</c>
+<c id="2">
+'
+</c>
+<c id="3">
+n
+</c>
+<c id="4">
+q
+</c>
+<c id="5">
+z
+</c>
+<c id="6">
+t
+</c>
+<c id="7">
+sh
+</c>
+<c id="8">
+gh
+</c>
+<c id="9">
+f
+</c>
+<c id="10">
+w
+</c>
+<c id="11">
+k
+</c>
+<c id="12">
+s
+</c>
+<c id="13">
+th
+</c>
+<c id="14">
+j
+</c>
+<c id="15">
+g
+</c>
+<c id="16">
+v
+</c>
+<c id="17">
+y
+</c>
+<c id="18">
+l
+</c>
+<c id="19">
+b
+</c>
+<c id="20">
+r
+</c>
+<c id="21">
+d
+</c>
+<c id="22">
+dh
+</c>
+<c id="23">
+h
+</c>
+<c id="24">
+p
+</c>
+<c id="25">
+H
+</c>
+<c id="26">
+kh
+</c>
+<c id="27">
+ng
+</c>
+</consonants>

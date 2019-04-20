@@ -1,0 +1,61 @@
+ideas
+-----
+1. plan:
+	do crazy things with vector pressure	
+
+Issues: 2/13/09
+---------------
+?1. meh doesn't reorient, but flips when attached to muu
+
+?2. Some letters don't move at all which slows down/breaks relaxation:
+	tests #6 (the [7]), and #4 (the [3])
+   OR: is this better solved just by implementing vector stuff
+
+features
+--------
+* active radiation
+* flip (esp 3-edge)
+* relaxing to make room for nodes in interior
+* relaxing radiation nodes
+* radiation long distance
+* relaxing things into straight lines
+
+DONE
+----
+confirm that transformation matrices work as hoped for
+by inserting into applyDxy() an 'update satelites'
+even though it's on p.applyDxy() it needs two points,
+that is why i need chains to be working, so the chains will have expected partners.
+
+add chain
+create o-,/\,/i,\/\,J
+
+format:
+{chains:[[%v,%v,%v],[%v]] 
+ links:[[p-chain,p-pos,q-chain,q-pos,type
+	  /*optional:*/, {/*hints on configuration i.e. points*/}],
+	[p-chain,p-pos,q-chain,q-pos,type]
+	],
+ hooks:[/* some way to refer to currently existing vowels in a graph */]
+}
+
+%v can be:
+ integer: vowel mapping--if negative, then it's backwards
+ object: {vowel:v-int, 
+	  /*all the rest are optional*/
+	  /* some way to detail points/orientation? */
+	  nodes:[{x:133,y:133}, {x:156,y:156}],
+	  chainNodes:[{x:123,y:123}, {x:456,y:456}], /*the others are relative to these*/
+	  name:name /*both hook and first label (primary location: e.g. above mo)*/
+	  content: {
+	    text: /* what is placed in the secondary text location (below mo, 2nd for muu */
+	   }
+          }
+create a vowel:
+0. make the vowel
+1. makeXNodes appropriate for the vowel (and needs node that its attaching to)
+2. make X-1 VowelEdges
+3. create satelites on appropriate vowel edges
+
+SvgOuwiyaru:
+ make each kind of vowel

@@ -1,0 +1,426 @@
+<?xml version="1.0"?>
+
+<vowel ref="9" name="ae">
+<title>Love</title>
+<image>ae.jpg</image>
+<notation>[1st joint, 2nd joint] (=curvy edge; 1-first edge (closest to weak edge)
+</notation>	
+<pronunciation>/ei/ like the 'ay' in 'May'
+</pronunciation>
+<w id="1">
+<d>details [important, not important]
+</d>
+</w>
+
+<w id="2">
+<d>calm [stillness, anger]
+</d>
+</w>
+
+<w id="3">
+<d>confrontation
+</d>
+</w>
+
+<w id="4">
+<d>pulse, support, heart [,if you've won, then stay]
+</d>
+</w>
+
+<w id="5">
+<d>what I say ["slip"], quick moment [what I want to say, what you want to hear]
+</d>
+</w>
+
+<w id="6">
+<d>edge; (=weak; 123-strong
+</d>
+</w>
+
+<w id="7">
+<d>(on the left side) [what I like about you--qualities]
+</d>
+</w>
+
+<w id="8">
+<d>breathing, "tingles" [causes me to breathe, "flare", head]
+</d>
+</w>
+
+<w id="9">
+<d>words
+</d>
+</w>
+
+<w id="10">
+<d>impressionable, imitate [hope, what's desired (from copying); sample, example (what is being imitated)]; 2-'first experience'
+</d>
+</w>
+
+<w id="11">
+<d>pestered with questions; 2-'test'
+</d>
+</w>
+
+<w id="12">
+<d>scream, "where are you!" [loneliness, frustration]
+</d>
+</w>
+
+<w id="13">
+<d>promise [restraint/vow, freedom]
+</d>
+</w>
+
+<w id="14">
+<d>urgency
+</d>
+</w>
+
+<w id="15">
+<d>body [other gender, my gender]
+</d>
+</w>
+
+<w id="16">
+<d>mistake [what am I doing wrong; absorb world, observe/look around]
+</d>
+</w>
+
+<w id="17">
+<d>translate [if...then...else]
+</d>
+</w>
+
+<w id="18">
+<d>face (in all its senses) [appearence of gazer, gaze]
+</d>
+</w>
+
+<w id="19">
+<d>binaries fuse [the two elements that are fused]
+</d>
+</w>
+
+<w id="20">
+<d>witness (=gaze; 2-'[sight] seen'
+</d>
+</w>
+
+<w id="21">
+<d>dancing, game, ritual [public, private/mutual/between each other]
+</d>
+</w>
+
+<w id="22">
+<d>make 'one' the subject
+</d>
+</w>
+
+<w id="23">
+<d>distraction
+</d>
+</w>
+
+<w id="24">
+<d>performer/work [do everyting for love (glory?), seize attention]
+</d>
+</w>
+
+<w id="25">
+<d>recognition of the subject [reaction, ]
+</d>
+</w>
+
+<w id="26">
+<d>prepared space/moment [invitation]; 3-'coincidence'
+</d>
+</w>
+
+<w id="27">
+<d>meeting [see each other, talk to each other]
+</d>
+</w>
+
+
+<translation>
+  <s refid="1"><w refid="1">What details are important?</w></s>
+
+  <ul><s refid="2"><w refid="2">a path to a calm from anger</w></s><s refid="3">
+  <w refid="3">from confrontation</w></s><s refid="4">
+  <w refid="4">a regular pulse</w>, dreaming in blood (and a beautiful cheek),</s><s refid="5">
+  <w refid="5">what I say at the spur of the moment</w>,</s><s refid="6">
+  <ul>is <w refid="6">weakly and strongly connected</w></ul></s><s refid="7">
+  to <w refid="7">all your quality</w></s><s refid="8">
+  <ul>--<w refid="8">that causes me to breathe in deeply!</w></ul></s>
+  </ul><s refid="9">
+  
+  <w refid="9">But the <i>words</i></w> are important!</s>
+  <ul><s refid="10">
+    --<w refid="10">the impressions they make</w> when we repeat them with <i>our</i> own inflections</s><s refid="11">
+
+    --to stir <w refid="11">a test: a hope: to be pestered with questions</w></s>
+    <ul><s refid="12">
+      <w refid="12"><i>Where are you!</i></w></s>
+      <s refid="13">
+        to be <w refid="13">promised</w> to, 
+      </s>
+      <ul>
+	<s refid="13">with the greatest of <w refid="13">freedom</w></s>
+	<s refid="14">
+	  with the greatest of <w refid="14">urgency</w>
+	</s>
+	<s refid="15">
+	  by nothing sacred or
+	  <ul>
+	    trivial, but simply our <w refid="15">bodies</w>
+	  </ul>
+	</s>
+      </ul>
+    </ul>
+    <s refid="16">
+      combined with <w refid="16">mistakes to re-perform</w> </s><s refid="17">and <w refid="17">translate</w></s>
+      <ul>
+	<s refid="19">
+	  <w refid="19">into one</w>
+	</s>
+	<s refid="18"> 
+	  <w refid="18">face</w>, while they 
+	</s>
+	<s refid="21">
+	  <w refid="21">dance,</w>
+	</s>
+	<s refid="18"><w refid="18">eye to eye</w></s>
+	<ul>
+	  <s refid="21">
+	    |-----all out <w refid="21">in public</w>
+	  </s>
+	  <s refid="20">
+	    that <w refid ="18"><w refid="20">gazes</w> at me
+	    <br />
+	    as I <w refid="20">gaze</w> at them.</w>
+	  </s>
+	</ul>
+	<s refid="24">
+	  <br />I'm the <w refid="24">magician</w> (in satin and velvet. You gaze at his splendor with eyes you've not used yet...)
+	</s>
+	<s refid="22">
+	  and <w refid="22">SHe is the Subject</w>:
+	</s>
+	<ul>
+	  <s refid="24">
+	    as you study their gaze out in the open
+	    <ul>
+	      how SHe reads from your <i>face</i> what is unspoken
+	      <br />
+	      by every <w refid="24">performer</w>
+	    </ul>
+	  </s>
+	  <s refid="23">
+	    but then such <w refid="23">a flash from the stage
+	    <ul>that your gaze falters</ul></w>
+	  </s>
+	  <s refid="25">
+	    AND ONLY THEN DO WE <w refid="25">RECOGNIZE</w>
+	  </s>
+	  <s refid="26">	  
+	    IN A <w refid="26">STAGE SET OUTSIDE</w>
+	  </s>
+	</ul>
+      </ul>
+      <s refid="27">
+	<w refid="27">a meeting-in closer</w>.
+      </s>
+  </ul>
+</translation>
+
+
+<history>
+<p>This story was originally entitled 'love.' On the very first notes
+page, I have, "magician, sparkles, splendor, new eyes (Sunny Goodge St. [Judi Collins]), sound, revealing truth despite its pain, the shrinking of the self and expanding of the self to reach the "you are I" and "I am you" simultaneously.  "play/sport/caress", rolling I was mistaken and, am alas, alone.  "I know loss" two triangles, sang in harmony. has "we" (w/implication of joined units--two lovers, allies in a war, saying it when the person spoken to is included in the "we") "[looked (up) with a happiness smiling) look]" you are my complement so yes; how far you'll let others 'in' how far you assume allowed entrance; monochrome overload."
+</p>
+<p>Much later in my first notebook there is titled 'on love' which is crossed out and replaced with "Love is not":</p>
+<blockquote>
+It has been argued by Alyssa that love can be only one of two undesirables.  It is either an obsession in ignorance, thus an emotion with no knowledge to be rational, or a dependance and thus a preison.  If it is not either of these things, the kindest, most idealistic examiner does not call it love (and nor will anyone else).  If this is true I shall be very depressed, and so, though perhaps that is the only thing to d, I will argue to postpone it, and perhaps find a secret escape route.
+
+<p>The first posibility is a passion that hardly seems to be a useful situation for anyone.  I will explore it later, but hope to fid, that it is not love, but is a vessel for finding true love, and thus does possess some utility.
+</p>
+<p>The second possibility sounds like a curse for us all to avoid.  But I have some questions.  I depend upon my arms ad legs for many things.  In using them, few people will claim I am stupidly being oppressed by physical crutches.  Were I to lose them, I would feel a great loss and any substitute would feel inadequate.  I would want my arms and legs back.<br />
+Cat Stevens--Moon Shadow): _I_ do not love my arms.<br />
+...(see my email to her [Alyssa])
+</p>
+<p>So dependingship is worth reeiving as many are better companions then ourselves to ourselves.
+</p>
+<p>Life we live, and as participants we are winners.  Love is similar, alas, it is not spoon fed to us as life is.  Does it require labour?  We work for colour?
+</p>
+</blockquote>
+
+<p>there are some more pages, which are still being worked with.</p>
+
+<h4>Rantings and theory 'around'</h4>
+
+<p>9/4/99:  interest in linguistic translation.  noted before in desire to introduce chapter with Beetoven's Schiller's "Ode to Joy" along with the
+translation beside it.</p>
+
+<h4>Previous 'thoughts'</h4>
+<pre>
+possible words:
+
+/\
+conscious myth edge/thread (eg en el filo del gozo: ?destined for
+"places" in oth er people's work(not a place)--the other
+
+create false bottom/superficial definitions--e.g. lie derivatives
+w/o length/distance
+
+(?in this group=?itg? comfort
+
+give choice of decision, not give arguments
+
+/\
+no, but I will not completely abandon this for you, but I will pay attention/
+believe you (and myself?), i will praise you.
+
+you will <i>hurt</i> us if you leave--we love you: 3rd laughs, but feels
+confident
+\/
+)
+\/
+
+/\
+bell=qae ~sing
+
+regularity (cx? breathe) (when life is at stake, then (cycles)) 
+  (and we can keep going if we want to (and I want to))
+
+give me only regular symbols
+
+translation--repeat in a different way
+
+dancing~pda (eye from each couple makes one gaze)
+
+
+'imitate us'--try be happiness
+  But I like being yin.  (so do I, but a stronger yin sometimes can be yang)
+			 (but who will <i>protect</i> yin, then from negative)
+
+regular becomes secure so that regularity's meaning is far less defined.
+(I will wait) [walk slowly]
+
+?itg? 
+coincidences mean we must meet--?in private? 
+   [seeing each other, talking to each other]
+/\
+"Do you know..."/"I don't know, tell me"
+
+because I'm saying what you might know already (analogue to -0-)
+
+you will "know your brother/sister when they come to you with something
+new they've found/discovered/created and when you rush to imitate it will
+they pester you with questions or do they lay their cheek on their palm.
+\/  
+\/
+--near imitate--pray (this will look slightly different.  see 2g22b)
+
+2g46:
+people want to see something that reflects their experience (e.g. violence)
+
+3rd: the content is not important (science--what the argument is about)
+1 of the 2: but it's important to me!
+
+/\
+crossed  one has to be on top, but uncomfortable, so switch or not
+uncrossed
+
+i am crosslegged=ready for a connection/meeting ?[legs crossed, ready]?
+\/
+
+/\
+tuck in--opposite of: weed has to bend one way or the other (on one
+side or the other) (?also, turn off the senses or not?)
+
+[yin, yang] 
+\/
+
+?no initiation yet: tension?
+
+protect by observing at a "close distance"
+
+recognition making the subject
+recognition/realization that "I am" the subject
+
+service: ownership mutual vs. not ~computer consulting
+
+meditate immediately after work (?cx stretch)-->do until [leave blank]
+   advantage of stillness
+
+3rd: "I am subtle"
+
+/\
+silent so long: need a prepared "space" (cx art)
+
+vulnerable
+\/
+
+compromise (but also au story, how different?)
+
+5:1 passion:argument
+
+tug
+
+binaries converge in our minds
+-----------------------------
+2g22
+forget
+
+/\
+witness (marry'er')
+
+invitation to speak (gift) or demand that someone hear someone else speak
+   (perhaps one of the 'bends' to "witness"?)
+
+games between people.  always someone can watch, except when it's sex
+   "we're playing a game, "can I watch [witness]", [no]
+
+to make it "public" between us vs. rest of world
+
+3rd: "vow is a method for freedom (how related to "faith"?)"
+\/
+
+must like yourself enough so that the things that someone else likes,
+you don't want to change or don't like about yourself
+  Let your good parts show
+
+home (building)
+
+mae: timing and direction
+
+if...then, else (see 2g22b)
+
+wherever you are, so I will try my hardest be
+
+----
+welcome
+----
+just because you can name it, doesn't mean it's bad
+
+tell me more about... [that I will see him/her again, that s/he is lonely]
+
+END: possible words
+-------------------
+compare a system where math-identity is unstable to a system without "one"
+how different?
+
+what if words are connected so people remember another argument for the
+same thing--the "another" will become obvious or implicit so there needs
+to be a graceful way to say it.  what arguments do we want to help
+strengthen?
+
+not just expectations--it's more their realistic interplay in daily life
+  can't be ruled by expectations.
+</pre>
+
+
+</history>
+
+</vowel>

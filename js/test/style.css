@@ -1,0 +1,34 @@
+body {
+	font-family: sans-serif;
+}
+
+h1 {
+	font-size:1.1em;
+}
+
+#background {
+	fill:none;
+}
+line,circle,path {
+	fill:none;
+	stroke-width:1px;
+	stroke:black;
+}
+
+circle {
+	fill:white;
+}
+
+circle.red {
+	stroke:red;
+}
+circle.blue {
+	stroke:blue;
+}
+circle.fillgreen {
+	stroke:blue;
+	fill:green;
+}
+circle.green {
+	stroke:green;
+}

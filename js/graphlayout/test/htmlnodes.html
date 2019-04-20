@@ -1,0 +1,35 @@
+<html>
+<head><title></title>
+   <script src="../MochiKit/MochiKit.js" type="text/javascript" ></script>
+   <script src="../GraphElements.js" type="text/javascript" ></script>
+   <script src="../TGGraphLayout.js" type="text/javascript" ></script>
+   <script src="../ChainLayout.js" type="text/javascript" ></script>
+   <script src="../SvgDOM.js" type="text/javascript" ></script>
+   <script src="../SvgGraph.js" type="text/javascript" ></script>
+   <script src="../HtmlGraph.js" type="text/javascript" ></script>
+   <script src="../RayChainHybrid.js" type="text/javascript" ></script>
+   <script type="text/javascript">
+   <!--
+       var svgdoc;
+       var graphVC;
+       var gModel;
+       var gIsomorph;
+       function main() {
+	   //createLoggingPane();
+	   var init_url='graphs/raychain3.json';
+	   svgdoc=document.embeds['svg'].getSVGDocument();
+	   graphVC=new HtmlGraph.Elements.Simple(svgdoc,$('domSpace'),'nodes');
+           //createLoggingPane();
+	   gIsomorph=new RayChainHybrid(graphVC);
+	   gModel=new GraphUtils.Labels(gIsomorph, graphVC);
+	   var def=loadJSONDoc(init_url);
+	   gModel.loadJSON(def);
+       }
+       addLoadEvent(main);
+    -->
+  </script>
+</head>
+<body>
+<div id="domSpace" style="height:500;width:600"><embed src="base.svg" name="svg" type="image/svg+xml" pluginspage="plugins.html" height="500" width="600"></div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+'save graph'
+ruled edge (take vector of last node (from head node), then place all nodes equally spaced along that vector)
+centerGraph
+draggable
+
+createNode (draw Node?)
+drawEdge
+removeEdge
+removeNode
+
+ouwiyaru
+

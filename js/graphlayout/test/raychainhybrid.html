@@ -1,0 +1,38 @@
+<html>
+<head><title></title>
+   <script src="../MochiKit/MochiKit.js" type="text/javascript" ></script>
+   <script src="../GraphElements.js" type="text/javascript" ></script>
+   <script src="../TGGraphLayout.js" type="text/javascript" ></script>
+   <script src="../ChainLayout.js" type="text/javascript" ></script>
+   <script src="../SvgDOM.js" type="text/javascript" ></script>
+   <script src="../SvgGraph.js" type="text/javascript" ></script>
+   <script src="../RayChainHybrid.js" type="text/javascript" ></script>
+   <script type="text/javascript">
+   <!--
+       var svgdoc;
+       var svgView;
+       var gModel;
+       var gIsomorph;
+       var def;
+       function main() {
+	   //createLoggingPane();
+	   //var init_url='graphs/raychain3.json';
+	   var init_url='graphs/test3.json';
+	   svgdoc=document.embeds['svg'].getSVGDocument();
+	   svgView=new SvgGraph.Elements.Simple(svgdoc,'nodes');
+           //createLoggingPane();
+	   gModel=new GraphUtils.PersistantLabels();
+
+	   gIsomorph = gModel.newGraph(svgView, RayChainHybrid);
+	   def=loadJSONDoc(init_url);
+	   gModel.loadJSON(def);
+       }
+       addLoadEvent(main);
+    -->
+  </script>
+</head>
+<body>
+<embed src="base.svg" name="svg" type="image/svg+xml" pluginspage="plugins.html" height="500" width="600">
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+body {
+	font-family: sans-serif;
+}
+
+h1 {
+	font-size:1.1em;
+}
+
+#background {
+	fill:none;
+}
+
+line,circle {
+	fill:none;
+	stroke-width:2px;
+	stroke:black;
+}
+
+rect {
+	fill:white;
+	stroke:black;
+	stroke-width:1px;
+}

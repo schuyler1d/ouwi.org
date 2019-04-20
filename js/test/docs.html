@@ -1,0 +1,74 @@
+<html>
+<head><title>Documentation and Tests</title>
+
+   <link rel="stylesheet" href="style.css" type="text/css" />
+   <script src="../graphlayout/MochiKit/MochiKit.js" type="text/javascript" ></script>
+   <script src="../graphlayout/GraphElements.js" type="text/javascript" ></script>
+   <script src="../graphlayout/TGGraphLayout.js" type="text/javascript" ></script>
+   <script src="../graphlayout/SvgDOM.js" type="text/javascript" ></script>
+   <script src="../graphlayout/SvgGraph.js" type="text/javascript" ></script>
+   <script src="../Ouwiyaru.js" type="text/javascript" ></script>
+   <script src="../Chains.js" type="text/javascript" ></script>
+</head>
+<body>
+<h1>Documentation and Tests</h1>
+<a name="classes"></a>
+<h3>Class summary</h3>
+<pre>           var init_url='someGraph.json';
+	   svgdoc=document.embeds['ouwiyaru'].getSVGDocument();
+	   graphVC=new Ouwiyaru.Elements.Simple(svgdoc,'nodes');
+           //createLoggingPane();
+	   gIsomorph=new Chains(graphVC);
+	   gModel=new Ouwiyaru.Labels(gIsomorph, graphVC);
+	   var def=loadJSONDoc(init_url);
+	   gModel.loadJSON(def);</pre>
+
+<ul>
+  <li>graphVC (Ouwiyaru.Elements.Simple)
+  <ul>
+    <li>.svgdoc</li>
+    <li>.target</li>
+    <li>.nodeModel 
+    <ul><li>.init</li></ul>
+    </li>
+    <li>.edgeModel (VowelEdge)
+      <ul>
+	<li>.updateView(self /*edgeModel*/,v_edge,chains) /*called by graph.relax()*/</li>
+        <li><b>.append(chain_appendee, chain_contents_to_be_appended)</b></li>
+      </ul>
+    </li>
+    <li>.graphs[]</li>
+    <li>.centerGraph()</li>
+    <li>.addGraph(graph)</li>
+  </ul>
+  </li>
+  <li>graph (Chains)
+  <ul>
+    <li>.addNodes(node_array)</li>
+    <li>.addEdges(edge_array)</li>
+    <li>.addChains(chain_array)</li>
+    <li>.relax()</li>
+    <li>.toggleNodeView(n)</li>
+    <li>.getNodes()</li>
+    <li>._unRelatedNodePairs()</li>
+    <li>._chainEdgeIter</li>
+    <li>.getNodeEdges
+        <ul>
+	  <li>.relax(node,relations /* if you want the p's and q's then send { p:[] , q:[] }*/)</li>
+	  <li>.model(n,r)</li>
+	  <li>.visible(n,r)</li>
+	</ul>
+    </li>
+  </ul>
+  </li>
+  <li>model (Ouwiyaru.Labels)
+  <ul>
+    <li>.graph</li>
+    <li>.graphVC</li>
+    <li>.loadJSON(deferred)</li>
+    <li>.loadTouchGraph(deferred)</li>
+  </ul>
+  </li>
+</ul>
+</body>
+</html>

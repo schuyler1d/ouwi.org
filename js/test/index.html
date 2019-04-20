@@ -1,0 +1,58 @@
+<html>
+<head><title></title>
+   <script src="../graphlayout/MochiKit/MochiKit.js" type="text/javascript" ></script>
+   <script src="../graphlayout/GraphElements.js" type="text/javascript" ></script>
+   <script src="../graphlayout/TGGraphLayout.js" type="text/javascript" ></script>
+   <script src="../graphlayout/RelativeDamper.js" type="text/javascript" ></script>
+   <script src="../graphlayout/SvgDOM.js" type="text/javascript" ></script>
+   <script src="../graphlayout/SvgGraph.js" type="text/javascript" ></script>
+   <script src="../Ouwiyaru.js" type="text/javascript" ></script>
+   <script src="../Chains.js" type="text/javascript" ></script>
+   <script type="text/javascript">
+       var svgdoc;
+       var graphVC;
+       var gModel;
+       var gIsomorph;
+
+       var testnum = 0;
+       function main() {
+	   //createLoggingPane();
+	   try {
+	       testnum = document.location.search.substr(1);
+	       if (testnum === 'Na' || 0 >= testnum) {
+		   throw "bad number";
+	       }
+	   } catch(e) {
+	       document.location='index.html?1';
+	   }
+	   var init_url='test'+testnum+'.json';
+
+	   svgdoc=document.getElementById('ouwiyaru').contentDocument;
+	   graphVC=new Ouwiyaru.Elements.Simple(svgdoc,'nodes');
+           //createLoggingPane();
+	   gIsomorph=new Chains(graphVC);
+	   gModel=new Ouwiyaru.Labels(gIsomorph, graphVC);
+	   var def=loadJSONDoc(init_url);
+	   def.addErrback(function() {
+	       if (testnum != 1) {
+	             document.location='index.html?1';
+	       }
+	   });
+	   def.addCallback(bind(gModel.loadJSON,gModel));
+       }
+       addLoadEvent(main);
+  </script>
+</head>
+<body>
+<a href="javascript:document.location='index.html?'+(testnum*1-1)">back</a> - 
+<a href="javascript:document.location='index.html?'+(testnum*1+1)">forward</a>
+
+<a href="javascript:SvgDOM.scale(svgdoc.getElementById('nodes'),1.2)">+</a>
+<a href="javascript:SvgDOM.scale(svgdoc.getElementById('nodes'),0.8)">-</a>
+
+<br />
+
+<object data="base.svg" id="ouwiyaru" name="ouwiyaru" type="image/svg+xml" height="500" width="700"></object>
+
+</body>
+</html>

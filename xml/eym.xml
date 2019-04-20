@@ -1,0 +1,231 @@
+<?xml version="1.0"?>
+
+<vowel ref="5" name="ey">
+<title>Light</title>
+<image>ey.jpg</image>
+<pronunciation>/&#x251;i/ like the 'y' in 'my'
+</pronunciation>
+<w id="1">
+<d>we, except; us, but
+</d>
+</w>
+
+<w id="2">
+<d>sick
+</d>
+</w>
+
+<w id="3">
+<d>How do we turn get, [try to change this state]
+</d>
+</w>
+
+<w id="4">
+<d>better
+</d>
+</w>
+
+<w id="5">
+<d>(with a) cure
+</d>
+</w>
+
+<w id="6">
+<d>undiscovered
+</d>
+</w>
+
+<w id="7">
+<d>(you) believe
+</d>
+</w>
+
+<w id="8">
+<d>(we) need
+</d>
+</w>
+
+<w id="9">
+<d>[foreign open]
+</d>
+</w>
+
+<w id="10">
+<d>[foreign close]
+</d>
+</w>
+
+<w id="11">
+<d>(my) story/account/What I say
+</d>
+</w>
+
+<w id="12">
+<d>(may) alter/change (your result)
+</d>
+</w>
+
+<w id="13">
+<d>(so) hide, "don't read this", "("
+</d>
+</w>
+
+<w id="14">
+<d>take something apply it to a different situation that doesn't apply
+</d>
+</w>
+
+<w id="15">
+<d>make one symptom better, by making another worse
+</d>
+</w>
+
+<w id="16">
+<d>?delimiter:next ['Just a minute']
+</d>
+</w>
+
+<w id="17">
+<d>read [what I've done before, or a reply to what I've done]; review
+</d>
+</w>
+
+<w id="18">
+<d>preparation {both noun and action}
+</d>
+</w>
+
+<w id="19">
+<d>reduce to simpler explanation; explicit relations:make/use language
+</d>
+</w>
+
+<w id="20">
+<d>unhide, ")"
+</d>
+<c>'start displaying again'
+</c>
+</w>
+
+<w id="21">
+<d>things I can change -0- things I can't
+</d>
+</w>
+
+<w id="22">
+<d>easier path created (implying another path more difficult)
+</d>
+</w>
+
+<w id="23">
+<d>exhausted, [everything goes out of focus]
+</d>
+</w>
+
+<w id="24">
+<d>expert
+</d>
+<n>+cons.=teacher</n>
+</w>
+
+<w id="25">
+<d>collapsed [inconsequential (nudge)]
+</d>
+</w>
+
+<w id="26">
+<d>being carried, everyday task [does not need thought;e.g. waiting, following]
+</d>
+</w>
+
+<w id="27">
+<d>the wisest would...
+</d>
+</w>
+
+<translation>
+<s refid="1">It looks like we're</s><s refid="2">sick--even the doctor</s>
+<s refid="3">How do we get</s> <s refid="4">better?</s>
+<s refid="5">With a cure,</s>
+<s refid="6">undiscovered,</s>
+<s refid="7">you believe </s><s refid="8">you need:</s>
+<s refid="9">"</s>
+<img src="" />
+<s refid="10">"</s>
+
+<s refid="11">What I say</s>
+<s refid="12">may affect your results,</s>
+<s refid="13">so don't read or record this:
+"</s>
+<ul>
+<s refid="14"> Apply something in an inappropriate context.</s>
+<s refid="15"> Make one symptom better, by making another worse.</s>
+<s refid="16"> (A knock at the door) 'I need more time!'</s>
+<s refid="17"> Reviewing</s>
+<s refid="18"> the preparation in hand</s>
+<s refid="19"> the doctor wrote out a simpler explanation of the result.</s>
+</ul>
+<s refid="20">"</s>
+
+<s refid="21">There are things we can change, and things we can't.</s>
+
+<s refid="22">In creating easier paths,</s>
+<s refid="23">we lose focus. Exhausted</s>
+
+<s refid="24">the expert, the doctor, </s>
+<s refid="25">collapsed.</s>
+
+<s refid="26">While being carried,</s>
+<s refid="27">what would the wiser person do?</s>
+</translation>
+
+<translation id="new thoughts">
+1 We're
+2 sick (even the doctor)
+3 How do we turn (i.e. 'get')
+4 better
+5 with a cure
+6 undiscovered.
+7  (you) believe 
+8  (you) need
+9  foreign open
+10 foreign close
+11 (But,) What I say
+12 may affect your result, (so)
+13 [hide: don't/can't copy this down]
+14 apply something known in an inappropriate context
+15 make one symptom better while making another worse
+16 'just a minute' [Next]
+17 review {note: the 'external' in 17 is the past}
+18 preparation {both noun and action}
+19 reduce to simplest explanation
+20 [unhide]
+21 change/can't change
+22 (having created an) easier (path)
+23 exhausted, (the)
+24 expert
+25 collapsed
+26 while waiting
+27 the wisest would... ['wisest course of action']
+
+eym themes:
+- insecurity of who/what we are
+- medicines are expensive mesieur
+
+</translation>
+
+<history>
+
+<p>This story was originally entitled 'light.' 
+</p>
+
+
+<h4>Rantings and theory 'around'</h4>
+
+<p>9/4/99:  what is mathematically invariant, and searching for it.  (in the context of having been reading Derrida's Counterfeit money (upto p62), then looking at information mechanics (axiomizaton p177-179 in particular) and then reviewing Dynamical Systems notes (especially 2/16/99)
+</p>
+
+</history>
+
+
+</vowel>

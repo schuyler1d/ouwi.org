@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+
+<vowel ref="7" name="ee">
+<title>Color</title>
+<image>ee.jpg</image>
+<pronunciation>/i/ like the 'e' in 'me'
+</pronunciation>
+<w id="1">
+<d>morning/dawn/sunrise
+</d>
+</w>
+
+<w id="2">
+<d>[painted] [the sky]
+</d>
+</w>
+
+<w id="3">
+<d>(something) resting w/o sleeping
+</d>
+</w>
+
+<w id="4">
+<d>eating w/o nutrition
+</d>
+</w>
+
+<w id="5">
+<d>singing (to no one)
+</d>
+</w>
+
+<w id="6">	
+<d>old (of young)
+</d>
+</w>
+
+<w id="7">
+<d>green
+</d>
+</w>
+
+<w id="8">
+<d>(a) flower/plant
+</d>
+</w>
+
+<w id="9">	
+<d>purple
+</d>
+</w>
+
+<w id="10">	
+<d>(asked) What are you dreaming?
+</d>
+</w>
+
+<w id="11">	
+<d>(responding)(a) red (flower)
+</d>
+</w>
+
+<w id="12">	
+<d>(with me upon a) [mushroom]
+</d>
+</w>
+
+<w id="13">	
+<d>(of) yellow/gold
+</d>
+</w>
+
+<w id="14">	
+<d>beside each other (one point of contact)
+</d>
+</w>
+
+<w id="15">	
+<d>(said the flower) What is that? (red)
+</d>
+</w>
+
+<w id="16">	
+<d>(responding) (what) you [are composed of]
+</d>
+</w>
+
+<w id="17">	
+<d>minus/without/removing
+</d>
+</w>
+
+<w id="18">
+<d>blue [the sky]
+</d>
+</w>
+
+<w id="19">	
+<d>(said the flower) Am I pretty?
+</d>
+</w>
+
+<w id="20">	
+<d>(responding) smiling (not confident, but happy)
+</d>
+</w>
+
+<w id="21">	
+<d>[kiss, hug] "thank you" (non-sexual, but physical)
+</d>
+</w>
+
+<w id="22">	
+<d>(in the sky was) orange [the sun]
+</d>
+</w>
+
+<w id="23">	
+<d>[laughing/sneezing the garden's scent] [losing control], [transformation] (perhaps pheromones)
+</d>
+</w>
+
+<w id="24">	
+<d>butterfly/ghost: detectable, difficult to contact
+</d>
+</w>
+
+<w id="25">	
+<d>(among the) carnival/dancing
+</d>
+</w>
+
+<w id="26">	
+<d>lost
+</d>
+</w>
+
+<w id="27">	
+<d>"come back again"
+</d>
+</w>
+<translation>
+<s refid="1"><w refid="1">Dawn</w> </s><s refid="2"><w refid="2">painted</w> the sky.</s><s refid="3">
+<br />
+There sat a creature (maybe a caterpillar), <w refid="3">relaxing</w>,</s><s refid="4"> <w refid="4">eating for enjoyment</w>,</s><s refid="5"> <w refid="5">singing</w>,</s><s refid="6">
+<w refid="6">the oldest of the young</w>,</s><s refid="7"> <w refid="7">green</w>.</s><s refid="8">
+<br />
+A <w refid="8">flower</w> beside it,</s><s refid="9"> a <w refid="9">violet</w>, asked it: </s><s refid="10"><w refid="10">"What are you dreaming?"</w></s>
+<ul>
+
+  <s refid="11">
+    "Of a <w refid="11">red</w> flower,</s><s refid="12"> me <w refid="12">upon</w> a </s><s refid="13"><w refid="13">golden</w> mushroom</s><s refid="14"> <w refid="14">beside</w> it"</s>
+</ul>
+<s refid="15">
+  <br />
+  "<w refid="15">What is</w> red?"
+</s>
+<ul>
+  <s refid="16">
+  <br />
+  "Well, it's <w refid="16">you</w>r color,</s><s refid="17"> <w refid="17">minus</w> the </s><s refid="18"> <w refid="18">blue</w> of the sky."</s>
+</ul>
+<s refid="19">
+  <br />
+  "<w refid="19">Am I pretty?</w>" asked the flower.
+</s>
+<s refid="20">
+  <br />
+  The creature <w refid="20">smiled</w> broadly, in reply</s><s refid="21">
+<br />
+"<w refid="21">Thank you</w>," said the flower.</s><s refid="22">
+<br />
+The sky had now turned <w refid="22">orange</w>,</s><s refid="23"> and the creature <w refid="23">sneezed, transforming</w></s><s refid="24"> into <w refid="24">something hard to touch (maybe a butterfly, or a ghost?)</w>.</s><s refid="25">
+<br />
+Rising above the <w refid="25">garden's canopy into the carnival</w>,</s><s refid="26"> the creature became <w refid="26">lost</w>,</s><s refid="27"> but heard a cry from below, <w refid="27">"Come back again!"</w></s>
+
+</translation>
+
+</vowel>

@@ -1,0 +1,18 @@
+#background {
+	fill:none;
+}
+
+.word {
+	pointer-events:all;
+	fill:none;
+	visibility:hidden;
+	stroke-width:5px;
+}
+
+.highlight {
+	opacity:0.4;
+	visibility:visible;
+	stroke-width:4px;
+	fill:none;
+	stroke:red;
+}
